@@ -1,10 +1,10 @@
 {
-  "price": 1.500145,
-  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 107386881, 2026-10-02 11:02:12 PDT",
-  "price_time_pt": "2026-10-02 11:02:12 PDT",
-  "price_change_24h": -0.299,
+  "price": 1.488621,
+  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 107387262, 2026-10-02 11:26:58 PDT",
+  "price_time_pt": "2026-10-02 11:26:58 PDT",
+  "price_change_24h": -0.112,
   "price_change_24h_source": "Kraken XRP/USD 1h candles",
-  "btc_price": 84624.7,
+  "btc_price": 84572.5,
   "btc_dominance": 56.31,
   "btc_dominance_trend": "flat",
   "fear_greed": {
@@ -14,7 +14,7 @@
   },
   "rsi": 50.15,
   "rsi_timeframe": "4h (Kraken XRP/USD)",
-  "rsi_1h": 40.62,
+  "rsi_1h": 41.79,
   "macd": {
     "line": 0.001303,
     "signal": -0.002382,
@@ -24,13 +24,13 @@
   "portfolio": {
     "xrp": 10030.09894,
     "rlusd": 1020.93,
-    "total_usd": 16067.53,
-    "growth_pct": -0.3199,
+    "total_usd": 15951.95,
+    "growth_pct": -1.037,
     "trading_edge_rlusd": -0.0016,
-    "price_effect_rlusd": -51.57,
+    "price_effect_rlusd": -167.15,
     "xrp_delta_vs_hold": -0.00106,
     "rlusd_delta_vs_hold": 0.0,
-    "hold_value_rlusd": 16067.53
+    "hold_value_rlusd": 15951.95
   },
   "mode": "GRID-UP-3%",
   "brain_enabled": true,
@@ -184,69 +184,62 @@
     "78.6%": 1.137782,
     "100%": 0.98471
   },
-  "amm_spot": 1.499731,
-  "best_bid": 1.5,
-  "best_ask": 1.5002899337985398,
+  "amm_spot": 1.491025,
+  "best_bid": 1.4880723652537244,
+  "best_ask": 1.489169923222328,
   "order_book_walls": {
     "bids": [
       {
-        "price": 1.49037,
-        "size_xrp": 152840.6,
-        "dist_pct": -0.65,
+        "price": 1.480394,
+        "size_xrp": 115806.0,
+        "dist_pct": -0.55,
         "is_wall": true,
-        "strength": 35.1
+        "strength": 20.2
       },
       {
         "price": 1.430001,
-        "size_xrp": 87371.6,
-        "dist_pct": -4.68,
+        "size_xrp": 40228.8,
+        "dist_pct": -3.94,
         "is_wall": true,
-        "strength": 20.0
+        "strength": 7.0
       },
       {
-        "price": 1.374,
-        "size_xrp": 105186.8,
-        "dist_pct": -8.41,
+        "price": 1.41649,
+        "size_xrp": 57261.3,
+        "dist_pct": -4.85,
         "is_wall": true,
-        "strength": 24.1
+        "strength": 10.0
       }
     ],
     "asks": [
       {
-        "price": 1.5845,
-        "size_xrp": 38124.7,
-        "dist_pct": 5.62,
-        "is_wall": true,
-        "strength": 8.7
-      },
-      {
         "price": 1.649,
-        "size_xrp": 89820.0,
-        "dist_pct": 9.92,
+        "size_xrp": 89754.5,
+        "dist_pct": 10.77,
         "is_wall": true,
-        "strength": 20.6
+        "strength": 15.6
       },
       {
         "price": 1.68,
-        "size_xrp": 46932.7,
-        "dist_pct": 11.99,
+        "size_xrp": 47523.1,
+        "dist_pct": 12.86,
         "is_wall": true,
-        "strength": 10.8
+        "strength": 8.3
       }
     ]
   },
   "amm_depth": {
     "1pct": {
-      "xrp_to_push_down": 7673.0,
-      "xrp_to_push_up": 7558.0
+      "xrp_to_push_down": 7695.0,
+      "xrp_to_push_up": 7580.0
     },
     "2pct": {
-      "xrp_to_push_down": 15462.0,
-      "xrp_to_push_up": 15005.0
+      "xrp_to_push_down": 15507.0,
+      "xrp_to_push_up": 15049.0
     },
     "5pct": {
-      "xrp_to_push_down": 39565.0,
-      "xrp_to_push_up": 36704.0
+      "xrp_to_push_down": 39680.0,
+      "xrp_to_push_up": 36811.0
     }
   },
   "indicator_sources": {
@@ -255,7 +248,7 @@
     "d1": "Kraken XRP/USD daily candles",
     "fear_greed": "alternative.me Fear & Greed",
     "btc_dominance": "CoinPaprika global (CoinGecko fallback)",
-    "walls": "XRPL XRP/RLUSD full funded order book (ledger 107386879), 0.5% bands, median/MAD walls + AMM bands"
+    "walls": "XRPL XRP/RLUSD full funded order book (ledger 107387261), 0.5% bands, median/MAD walls + AMM bands"
   },
   "_note": "Phoenix 2.0 paper grid. growth_pct includes price movement; trading_edge_rlusd is edge vs the hold baseline."
 }
