@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-10-03T17:47:42Z",
+  "timestamp": "2026-10-03T18:02:11Z",
   "action": "GRID",
   "trade_tier": "C",
   "confidence": 59,
   "confidence_note": "designed trend score mapped to 50-90 (NOT a probability); calibration tracked in predictions",
-  "confluence_count": "0/5",
+  "confluence_count": "0/4",
   "confluence_signals": [],
-  "reasoning": "Regime RANGE (raw RANGE, trend score -0.171), volatility NORMAL. Steering: spacing 3.0%, sells x1.25, buys x1.25. Why: range/chop: normal grid; sentiment caution: widen both sides x1.25; book imbalance +0.21 -> regime score nudge +0.017. Sentiment flag: caution. 8 resting paper orders. Edge vs hold +3.1165 RLUSD (XRP +102.6363, RLUSD -150.0000). Price: 2026-10-03 10:47:42 PDT, XRPL DEX mid.",
+  "reasoning": "Regime RANGE (raw RANGE, trend score -0.188), volatility NORMAL. Steering: spacing 3.0%, sells x1.25, buys x1.25. Why: range/chop: normal grid; sentiment caution: widen both sides x1.25. Sentiment flag: caution. 8 resting paper orders. Edge vs hold +3.2984 RLUSD (XRP +102.6363, RLUSD -150.0000). Price: 2026-10-03 11:02:11 PDT, XRPL DEX mid.",
   "macro_trend": "NEUTRAL",
   "macro_wave_position": "60% of 30d range, 71% of 180d range",
-  "elliott_wave": "MACRO (daily): EMA50 1.3801 / EMA200 1.3735; price above the 200-day average. 180d range 0.9847-1.7000. INTERMEDIATE (4h): EMA20 1.4960 / EMA50 1.4981, RSI 47.38, ADX 17.77 (+DI 21.98 / -DI 22.58), MACD Bearish. SHORT-TERM (1h): RSI 49.71, 24h change -0.877%, ATR 0.55%. (Trend structure from indicators; no Elliott Wave counting.)",
+  "elliott_wave": "MACRO (daily): EMA50 1.3801 / EMA200 1.3735; price above the 200-day average. 180d range 0.9847-1.7000. INTERMEDIATE (4h): EMA20 1.4960 / EMA50 1.4981, RSI 47.38, ADX 17.77 (+DI 21.98 / -DI 22.58), MACD Bearish. SHORT-TERM (1h): RSI 51.33, 24h change -0.435%, ATR 0.545%. (Trend structure from indicators; no Elliott Wave counting.)",
   "bull_case": {
-    "target": 1.5005,
-    "probability": 43,
+    "target": 1.495,
+    "probability": 42,
     "reasoning": "Next resistance (Fib/ask wall). 'probability' here is a designed score share, not a probability."
   },
   "bear_case": {
-    "target": 1.452,
-    "probability": 57,
+    "target": 1.4826,
+    "probability": 58,
     "reasoning": "Next support (Fib/bid wall). 'probability' here is a designed score share, not a probability."
   },
-  "rsi_assessment": "RSI 1h 49.71, 4h 47.38",
+  "rsi_assessment": "RSI 1h 51.33, 4h 47.38",
   "invalidation": 1.2461,
   "invalidation_reasoning": "Range invalidated below the 30d low",
   "risk": "MEDIUM",
@@ -46,47 +46,68 @@
   "order_book_depth": {
     "walls_bid": [
       {
-        "price": 1.374,
-        "front": 1.374,
-        "size_xrp": 90186.6,
-        "dist_pct": -7.9,
-        "strength": 10.8
+        "price": 1.482321,
+        "front": 1.482647,
+        "size_xrp": 46791.2,
+        "dist_pct": -0.73,
+        "strength": 6.5
       },
       {
-        "price": 1.349914,
-        "front": 1.35,
-        "size_xrp": 139296.8,
-        "dist_pct": -9.51,
-        "strength": 16.6
+        "price": 1.466676,
+        "front": 1.47001,
+        "size_xrp": 49658.5,
+        "dist_pct": -1.58,
+        "strength": 6.9
+      },
+      {
+        "price": 1.423283,
+        "front": 1.42317,
+        "size_xrp": 56753.1,
+        "dist_pct": -4.72,
+        "strength": 7.9
       }
     ],
     "walls_ask": [
       {
-        "price": 1.649777,
+        "price": 1.497618,
+        "front": 1.495,
+        "size_xrp": 65552.5,
+        "dist_pct": 0.09,
+        "strength": 9.1
+      },
+      {
+        "price": 1.649689,
         "front": 1.649,
-        "size_xrp": 88227.9,
-        "dist_pct": 10.53,
-        "strength": 10.5
+        "size_xrp": 89872.0,
+        "dist_pct": 10.4,
+        "strength": 12.5
+      },
+      {
+        "price": 1.679601,
+        "front": 1.68,
+        "size_xrp": 46944.7,
+        "dist_pct": 12.48,
+        "strength": 6.5
       }
     ],
-    "imbalance_2pct": 0.212,
+    "imbalance_2pct": 0.136,
     "thinness": "normal",
-    "thinness_ratio": 1.016,
-    "amm_share_near_pct": 13.6,
-    "regime_nudge": 0.017,
+    "thinness_ratio": 1.132,
+    "amm_share_near_pct": 12.2,
+    "regime_nudge": 0.0,
     "spacing_mult": 1.0,
     "note": "advisory only; safety rules apply after steering",
     "depth_2pct_xrp": {
-      "bid": 122555.0,
-      "ask": 79664.0
+      "bid": 127867.0,
+      "ask": 97280.0
     }
   },
   "btc_move_caution": {
-    "btc_usd": 84917.4,
-    "chg_1h_pct": 0.075,
-    "chg_4h_pct": 0.071,
+    "btc_usd": 84992.7,
+    "chg_1h_pct": 0.141,
+    "chg_4h_pct": 0.248,
     "source": "Kraken XBT/USD 15m OHLC",
-    "time_pt": "2026-10-03 10:47:42 PDT",
+    "time_pt": "2026-10-03 11:02:11 PDT",
     "level": 0,
     "exposed_side": null,
     "spacing_mult": 1.0,
@@ -96,14 +117,14 @@
   "dex_flow": {
     "windows": {
       "1h": {
-        "buy_xrp": 55098.3,
-        "sell_xrp": 44618.5,
-        "net_xrp": 10479.9,
-        "volume_xrp": 99716.8,
-        "vwap": 3.720968,
-        "book_trade_ledgers": 313,
+        "buy_xrp": 56946.8,
+        "sell_xrp": 45120.2,
+        "net_xrp": 11826.7,
+        "volume_xrp": 102067.0,
+        "vwap": 1.492576,
+        "book_trade_ledgers": 319,
         "amm_swaps": 46,
-        "imbalance": 0.105,
+        "imbalance": 0.116,
         "coverage": 1.0,
         "amm_pool_change": {
           "xrp_change": -2057.6,
@@ -113,14 +134,14 @@
         }
       },
       "4h": {
-        "buy_xrp": 197963.5,
-        "sell_xrp": 178925.5,
-        "net_xrp": 19038.0,
-        "volume_xrp": 376889.0,
-        "vwap": 2.079939,
-        "book_trade_ledgers": 1344,
+        "buy_xrp": 201139.5,
+        "sell_xrp": 180580.0,
+        "net_xrp": 20559.5,
+        "volume_xrp": 381719.5,
+        "vwap": 2.072547,
+        "book_trade_ledgers": 1314,
         "amm_swaps": 119,
-        "imbalance": 0.051,
+        "imbalance": 0.054,
         "coverage": 1.0,
         "amm_pool_change": {
           "xrp_change": -4030.2,
@@ -130,10 +151,10 @@
         }
       }
     },
-    "imbalance_used": 0.078,
+    "imbalance_used": 0.085,
     "side_widened": null,
     "spacing_mult": 1.0,
-    "time_pt": "2026-10-03 10:47:42 PDT",
+    "time_pt": "2026-10-03 11:02:11 PDT",
     "error": null,
     "source": "XRPL book_changes (order-book fills, side by tick rule) + AMM swaps (exact) + amm_info snapshots"
   }
