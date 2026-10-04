@@ -1,12 +1,12 @@
 {
-  "price": 1.507296,
-  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 107433329, 2026-10-04 12:20:35 PDT",
-  "price_time_pt": "2026-10-04 12:20:35 PDT",
+  "price": 1.50647,
+  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 107433633, 2026-10-04 12:39:57 PDT",
+  "price_time_pt": "2026-10-04 12:39:57 PDT",
   "price_change_24h": 0.84,
   "price_change_24h_source": "Kraken XRP/USD 1h candles",
   "btc_price": 85380.4,
-  "btc_dominance": 59.13,
-  "btc_dominance_trend": "rising",
+  "btc_dominance": 56.37,
+  "btc_dominance_trend": "flat",
   "fear_greed": {
     "value": 65,
     "classification": "Greed",
@@ -24,13 +24,13 @@
   "portfolio": {
     "xrp": 10132.734933,
     "rlusd": 870.929971,
-    "total_usd": 16143.96,
-    "growth_pct": 0.1542,
-    "trading_edge_rlusd": 4.7012,
-    "price_effect_rlusd": 20.16,
+    "total_usd": 16135.59,
+    "growth_pct": 0.1023,
+    "trading_edge_rlusd": 4.6164,
+    "price_effect_rlusd": 11.88,
     "xrp_delta_vs_hold": 102.634933,
     "rlusd_delta_vs_hold": -150.000029,
-    "hold_value_rlusd": 16139.26
+    "hold_value_rlusd": 16130.98
   },
   "mode": "GRID-RANGE-3%",
   "brain_enabled": true,
@@ -184,69 +184,62 @@
     "78.6%": 1.137782,
     "100%": 0.98471
   },
-  "amm_spot": 1.504994,
-  "best_bid": 1.5066526312381225,
-  "best_ask": 1.5079385429850285,
+  "amm_spot": 1.506037,
+  "best_bid": 1.5055000167596668,
+  "best_ask": 1.5074402515245386,
   "order_book_walls": {
     "bids": [
       {
         "price": 1.492,
-        "size_xrp": 51316.8,
-        "dist_pct": -1.01,
+        "size_xrp": 57309.3,
+        "dist_pct": -0.96,
         "is_wall": true,
-        "strength": 8.2
+        "strength": 9.0
       },
       {
-        "price": 1.43572,
-        "size_xrp": 96852.6,
-        "dist_pct": -4.75,
+        "price": 1.43436,
+        "size_xrp": 96848.1,
+        "dist_pct": -4.79,
         "is_wall": true,
-        "strength": 15.5
+        "strength": 15.2
       },
       {
         "price": 1.374,
-        "size_xrp": 90192.0,
-        "dist_pct": -8.84,
+        "size_xrp": 90206.4,
+        "dist_pct": -8.79,
         "is_wall": true,
-        "strength": 14.5
+        "strength": 14.1
       }
     ],
     "asks": [
       {
-        "price": 1.51378,
-        "size_xrp": 54927.0,
-        "dist_pct": 0.43,
+        "price": 1.518801,
+        "size_xrp": 43842.5,
+        "dist_pct": 0.82,
         "is_wall": true,
-        "strength": 8.8
+        "strength": 6.9
       },
       {
-        "price": 1.649,
-        "size_xrp": 91352.0,
-        "dist_pct": 9.4,
+        "price": 1.65,
+        "size_xrp": 72221.0,
+        "dist_pct": 9.53,
         "is_wall": true,
-        "strength": 14.6
-      },
-      {
-        "price": 1.68,
-        "size_xrp": 48495.7,
-        "dist_pct": 11.46,
-        "is_wall": true,
-        "strength": 7.8
+        "strength": 11.3
       }
     ]
   },
   "amm_depth": {
     "1pct": {
-      "xrp_to_push_down": 7663.0,
-      "xrp_to_push_up": 7549.0
+      "xrp_to_push_down": 7661.0,
+      "xrp_to_push_up": 7546.0
     },
     "2pct": {
-      "xrp_to_push_down": 15443.0,
-      "xrp_to_push_up": 14987.0
+      "xrp_to_push_down": 15438.0,
+      "xrp_to_push_up": 14982.0
     },
     "5pct": {
-      "xrp_to_push_down": 39516.0,
-      "xrp_to_push_up": 36659.0
+      "xrp_to_push_down": 39503.0,
+      "xrp_to_push_up": 36646.0
     }
   },
   "indicator_sources": {
@@ -254,8 +247,8 @@
     "h4": "Kraken XRP/USD 4h candles",
     "d1": "Kraken XRP/USD daily candles",
     "fear_greed": "alternative.me Fear & Greed",
-    "btc_dominance": "CoinGecko global",
-    "walls": "XRPL XRP/RLUSD full funded order book (ledger 107433328), 0.5% bands, median/MAD walls + AMM bands"
+    "btc_dominance": "CoinPaprika global (CoinGecko fallback)",
+    "walls": "XRPL XRP/RLUSD full funded order book (ledger 107433632), 0.5% bands, median/MAD walls + AMM bands"
   },
   "_note": "Phoenix 2.0 paper grid. growth_pct includes price movement; trading_edge_rlusd is edge vs the hold baseline."
 }
