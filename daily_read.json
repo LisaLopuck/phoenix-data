@@ -92,7 +92,7 @@
    "fail": 1.5005,
    "text": "break above $1.5286 -> ~$1.5606",
    "max_seen": 1.5196089615384616,
-   "min_seen": 1.5004894990537796
+   "min_seen": 1.4927007855603736
   },
   {
    "id": "breakdown",
@@ -103,7 +103,7 @@
    "fail": 1.5286,
    "text": "lose $1.5005 -> $1.4520 then $1.4284",
    "max_seen": 1.5196089615384616,
-   "min_seen": 1.5004894990537796,
+   "min_seen": 1.4927007855603736,
    "triggered_utc": "2026-10-05T14:35:03.622840+00:00"
   }
  ],
@@ -120,8 +120,8 @@
   "calls": 8,
   "hit": 1,
   "miss": 0,
-  "no_trigger": 0,
-  "open": 7,
+  "no_trigger": 1,
+  "open": 6,
   "hit_rate_pct": 100.0,
   "note": "scored on XRPL DEX mids sampled each 20-min check (intra-check wicks not seen)"
  },
