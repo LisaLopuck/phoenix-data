@@ -29,31 +29,9 @@
  "scored_total": 40,
  "hits": 4,
  "hit_rate_pct": 10.0,
- "pending": 16,
+ "pending": 18,
  "neutral_calls": 12,
  "recent": [
-  {
-   "date_pt": "2026-10-06 12:46:38 PDT",
-   "timeframe_hours": 24,
-   "direction": "NEUTRAL",
-   "confidence": null,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.50062,
-   "target_price": null,
-   "actual_result": null,
-   "accurate": null
-  },
-  {
-   "date_pt": "2026-10-06 12:46:38 PDT",
-   "timeframe_hours": 48,
-   "direction": "NEUTRAL",
-   "confidence": null,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.50062,
-   "target_price": null,
-   "actual_result": null,
-   "accurate": null
-  },
   {
    "date_pt": "2026-10-06 17:05:49 PDT",
    "timeframe_hours": 24,
@@ -139,6 +117,28 @@
    "confidence_label": "designed score 50-90 (not a probability)",
    "entry_price": 1.445252,
    "target_price": 1.381973,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-07 10:09:12 PDT",
+   "timeframe_hours": 24,
+   "direction": "DOWN",
+   "confidence": 85,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.431612,
+   "target_price": 1.385972,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-07 10:09:12 PDT",
+   "timeframe_hours": 48,
+   "direction": "DOWN",
+   "confidence": 85,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.431612,
+   "target_price": 1.367068,
    "actual_result": null,
    "accurate": null
   }
