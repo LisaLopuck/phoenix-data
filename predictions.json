@@ -14,46 +14,24 @@
    "brier_vs_score": 0.3292
   },
   "70-79": {
-   "n": 9,
-   "hits": 5,
-   "hit_rate_pct": 55.6,
-   "brier_vs_score": 0.2918
+   "n": 10,
+   "hits": 6,
+   "hit_rate_pct": 60.0,
+   "brier_vs_score": 0.2689
   },
   "80-90": {
-   "n": 11,
-   "hits": 7,
-   "hit_rate_pct": 63.6,
-   "brier_vs_score": 0.263
+   "n": 12,
+   "hits": 8,
+   "hit_rate_pct": 66.7,
+   "brier_vs_score": 0.2419
   }
  },
- "scored_total": 68,
- "hits": 28,
- "hit_rate_pct": 41.2,
+ "scored_total": 70,
+ "hits": 30,
+ "hit_rate_pct": 42.9,
  "pending": 14,
  "neutral_calls": 12,
  "recent": [
-  {
-   "date_pt": "2026-10-13 06:37:12 PDT",
-   "timeframe_hours": 24,
-   "direction": "DOWN",
-   "confidence": 90,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.363147,
-   "target_price": 1.314619,
-   "actual_result": null,
-   "accurate": null
-  },
-  {
-   "date_pt": "2026-10-13 06:37:12 PDT",
-   "timeframe_hours": 48,
-   "direction": "DOWN",
-   "confidence": 90,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.363147,
-   "target_price": 1.294518,
-   "actual_result": null,
-   "accurate": null
-  },
   {
    "date_pt": "2026-10-13 10:43:22 PDT",
    "timeframe_hours": 24,
@@ -139,6 +117,28 @@
    "confidence_label": "designed score 50-90 (not a probability)",
    "entry_price": 1.372737,
    "target_price": 1.311546,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-14 08:27:33 PDT",
+   "timeframe_hours": 24,
+   "direction": "DOWN",
+   "confidence": 78,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.336679,
+   "target_price": 1.294146,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-14 08:27:33 PDT",
+   "timeframe_hours": 48,
+   "direction": "DOWN",
+   "confidence": 78,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.336679,
+   "target_price": 1.276528,
    "actual_result": null,
    "accurate": null
   }
