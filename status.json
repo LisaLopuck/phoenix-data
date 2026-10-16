@@ -1,11 +1,11 @@
 {
-  "price": 1.304805,
-  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 107703131, 2026-10-16 14:20:37 PDT",
-  "price_time_pt": "2026-10-16 14:20:37 PDT",
-  "price_change_24h": -2.571,
+  "price": 1.309335,
+  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 107705130, 2026-10-16 16:29:03 PDT",
+  "price_time_pt": "2026-10-16 16:29:03 PDT",
+  "price_change_24h": -2.273,
   "price_change_24h_source": "Kraken XRP/USD 1h candles",
-  "btc_price": 81639.3,
-  "btc_dominance": 59.42,
+  "btc_price": 81556.8,
+  "btc_dominance": 59.36,
   "btc_dominance_trend": "flat",
   "fear_greed": {
     "value": 63,
@@ -14,7 +14,7 @@
   },
   "rsi": 35.29,
   "rsi_timeframe": "4h (Kraken XRP/USD)",
-  "rsi_1h": 37.69,
+  "rsi_1h": 41.96,
   "macd": {
     "line": -0.016943,
     "signal": -0.016683,
@@ -24,13 +24,13 @@
   "portfolio": {
     "xrp": 10442.64933,
     "rlusd": 463.69169,
-    "total_usd": 14089.31,
-    "growth_pct": -12.5925,
-    "trading_edge_rlusd": -18.9419,
-    "price_effect_rlusd": -2010.84,
+    "total_usd": 14136.62,
+    "growth_pct": -12.2989,
+    "trading_edge_rlusd": -17.0731,
+    "price_effect_rlusd": -1965.41,
     "xrp_delta_vs_hold": 412.54933,
     "rlusd_delta_vs_hold": -557.23831,
-    "hold_value_rlusd": 14108.25
+    "hold_value_rlusd": 14153.69
   },
   "mode": "GRID-SHARP_DOWN-2%",
   "brain_enabled": true,
@@ -169,62 +169,69 @@
     "78.6%": 1.137782,
     "100%": 0.98471
   },
-  "amm_spot": 1.302819,
-  "best_bid": 1.30382,
-  "best_ask": 1.3057900011031904,
+  "amm_spot": 1.310908,
+  "best_bid": 1.3089298632169113,
+  "best_ask": 1.3097400000000001,
   "order_book_walls": {
     "bids": [
       {
-        "price": 1.30353,
-        "size_xrp": 40399.9,
-        "dist_pct": -0.1,
+        "price": 1.30732,
+        "size_xrp": 76530.5,
+        "dist_pct": -0.15,
         "is_wall": true,
-        "strength": 8.3
+        "strength": 26.3
       },
       {
         "price": 1.2848,
-        "size_xrp": 32401.0,
-        "dist_pct": -1.53,
+        "size_xrp": 28145.6,
+        "dist_pct": -1.87,
         "is_wall": true,
-        "strength": 6.6
+        "strength": 9.7
       },
       {
-        "price": 1.25,
-        "size_xrp": 180039.3,
-        "dist_pct": -4.2,
+        "price": 1.276,
+        "size_xrp": 30839.9,
+        "dist_pct": -2.55,
         "is_wall": true,
-        "strength": 36.9
+        "strength": 10.6
       }
     ],
     "asks": [
       {
-        "price": 1.306595,
-        "size_xrp": 48809.5,
-        "dist_pct": 0.14,
+        "price": 1.30995,
+        "size_xrp": 47419.1,
+        "dist_pct": 0.05,
         "is_wall": true,
-        "strength": 10.0
+        "strength": 16.3
       },
       {
-        "price": 1.36933,
-        "size_xrp": 69775.8,
+        "price": 1.350184,
+        "size_xrp": 20460.1,
+        "dist_pct": 3.12,
+        "is_wall": true,
+        "strength": 7.0
+      },
+      {
+        "price": 1.37412,
+        "size_xrp": 76449.6,
         "dist_pct": 4.95,
         "is_wall": true,
-        "strength": 14.3
+        "strength": 26.3
       }
     ]
   },
   "amm_depth": {
     "1pct": {
-      "xrp_to_push_down": 9328.0,
-      "xrp_to_push_up": 9189.0
+      "xrp_to_push_down": 9300.0,
+      "xrp_to_push_up": 9162.0
     },
     "2pct": {
-      "xrp_to_push_down": 18799.0,
-      "xrp_to_push_up": 18243.0
+      "xrp_to_push_down": 18742.0,
+      "xrp_to_push_up": 18188.0
     },
     "5pct": {
-      "xrp_to_push_down": 48103.0,
-      "xrp_to_push_up": 44624.0
+      "xrp_to_push_down": 47957.0,
+      "xrp_to_push_up": 44489.0
     }
   },
   "indicator_sources": {
@@ -233,7 +240,7 @@
     "d1": "Kraken XRP/USD daily candles",
     "fear_greed": "alternative.me Fear & Greed",
     "btc_dominance": "CoinGecko global",
-    "walls": "XRPL XRP/RLUSD full funded order book (ledger 107703131), 0.5% bands, median/MAD walls + AMM bands"
+    "walls": "XRPL XRP/RLUSD full funded order book (ledger 107705129), 0.5% bands, median/MAD walls + AMM bands"
   },
   "_note": "Phoenix 2.0 paper grid. growth_pct includes price movement; trading_edge_rlusd is edge vs the hold baseline."
 }
