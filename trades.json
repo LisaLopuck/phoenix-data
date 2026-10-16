@@ -91,14 +91,14 @@
       "rlusdHeld": 273.1118
     },
     {
-      "id": "o404",
-      "openedAt": "2026-10-16T09:26:40Z",
+      "id": "o406",
+      "openedAt": "2026-10-16T17:23:21Z",
       "invalidation_price": null,
       "grid_order": true,
-      "grid_status": "resting",
-      "limit_side": "BUY",
-      "limit_price": 1.30399,
-      "limit_qty": 199.387986,
+      "grid_status": "cycle_open",
+      "limit_side": "SELL",
+      "limit_price": 1.33659,
+      "limit_qty": 196.956425,
       "tradeType": "BUY",
       "xrpBought": 199.387986,
       "buyPrice": 1.30399,
@@ -134,7 +134,7 @@
       "xrpSold": 100.783394
     }
   ],
-  "total_profit": 10.4934,
+  "total_profit": 10.4129,
   "total_profit_note": "completed grid cycles: RLUSD profit + XRP profit valued at current price",
   "win_rate": 100.0,
   "total_trades_closed": 2
