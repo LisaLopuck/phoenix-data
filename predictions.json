@@ -20,16 +20,16 @@
    "brier_vs_score": 0.2997
   },
   "80-90": {
-   "n": 23,
+   "n": 24,
    "hits": 18,
-   "hit_rate_pct": 78.3,
-   "brier_vs_score": 0.1707
+   "hit_rate_pct": 75.0,
+   "brier_vs_score": 0.1973
   }
  },
- "scored_total": 82,
+ "scored_total": 83,
  "hits": 40,
- "hit_rate_pct": 48.8,
- "pending": 14,
+ "hit_rate_pct": 48.2,
+ "pending": 13,
  "neutral_calls": 12,
  "recent": [
   {
@@ -40,8 +40,8 @@
    "confidence_label": "designed score 50-90 (not a probability)",
    "entry_price": 1.321471,
    "target_price": 1.272075,
-   "actual_result": null,
-   "accurate": null
+   "actual_result": "1.334603 at 2026-10-15 20:24:25 PDT (+0.99%)",
+   "accurate": false
   },
   {
    "date_pt": "2026-10-14 18:28:37 PDT",
