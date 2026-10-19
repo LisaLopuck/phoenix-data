@@ -76,34 +76,49 @@
       "rlusdHeld": 249.6828
     },
     {
-      "id": "o426",
-      "openedAt": "2026-10-18T23:28:18Z",
+      "id": "o428",
+      "openedAt": "2026-10-19T05:04:33Z",
       "invalidation_price": null,
       "grid_order": true,
       "grid_status": "resting",
-      "limit_side": "SELL",
-      "limit_price": 1.468493,
-      "limit_qty": 175.0,
-      "tradeType": "SELL",
-      "xrpSold": 175.0,
-      "sellPrice": 1.468493,
-      "targetBuyPrice": 1.432676,
-      "rlusdHeld": 256.9863
+      "limit_side": "BUY",
+      "limit_price": 1.25477,
+      "limit_qty": 130.454186,
+      "tradeType": "BUY",
+      "xrpBought": 130.454186,
+      "buyPrice": 1.25477,
+      "targetSellPrice": 1.286139,
+      "rlusdSpent": 163.69
     },
     {
-      "id": "o427",
-      "openedAt": "2026-10-18T23:28:18Z",
+      "id": "o429",
+      "openedAt": "2026-10-19T05:04:33Z",
       "invalidation_price": null,
       "grid_order": true,
       "grid_status": "resting",
       "limit_side": "SELL",
-      "limit_price": 1.503843,
+      "limit_price": 1.326514,
       "limit_qty": 175.0,
       "tradeType": "SELL",
       "xrpSold": 175.0,
-      "sellPrice": 1.503843,
-      "targetBuyPrice": 1.467164,
-      "rlusdHeld": 263.1725
+      "sellPrice": 1.326514,
+      "targetBuyPrice": 1.29416,
+      "rlusdHeld": 232.1399
+    },
+    {
+      "id": "o430",
+      "openedAt": "2026-10-19T05:04:33Z",
+      "invalidation_price": null,
+      "grid_order": true,
+      "grid_status": "resting",
+      "limit_side": "SELL",
+      "limit_price": 1.359677,
+      "limit_qty": 175.0,
+      "tradeType": "SELL",
+      "xrpSold": 175.0,
+      "sellPrice": 1.359677,
+      "targetBuyPrice": 1.326514,
+      "rlusdHeld": 237.9435
     }
   ],
   "trade_history": [
@@ -134,7 +149,7 @@
       "xrpSold": 100.783394
     }
   ],
-  "total_profit": 10.4797,
+  "total_profit": 10.471,
   "total_profit_note": "completed grid cycles: RLUSD profit + XRP profit valued at current price",
   "win_rate": 100.0,
   "total_trades_closed": 2
