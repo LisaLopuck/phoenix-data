@@ -94,8 +94,9 @@
    "target": 1.3404,
    "fail": 1.27,
    "text": "break above $1.3050 -> ~$1.3404",
-   "max_seen": 1.3046299994704835,
-   "min_seen": 1.2693144622842163
+   "max_seen": 1.3090200005696038,
+   "min_seen": 1.2693144622842163,
+   "triggered_utc": "2026-10-19T01:22:02.519251+00:00"
   },
   {
    "id": "breakdown",
@@ -105,25 +106,30 @@
    "target2": 1.214,
    "fail": 1.305,
    "text": "lose $1.2700 -> $1.2500 then $1.2140",
-   "max_seen": 1.3046299994704835,
+   "max_seen": 1.3090200005696038,
    "min_seen": 1.2693144622842163,
-   "triggered_utc": "2026-10-18T21:24:43.755054+00:00"
+   "triggered_utc": "2026-10-18T21:24:43.755054+00:00",
+   "outcome": "miss",
+   "scored_utc": "2026-10-19T01:22:02.519251+00:00",
+   "scored_price": 1.3090200005696038
   }
  ],
  "invalidation": {
   "condition": "4h close above",
   "level": 1.305,
-  "flips_to": "neutral/bullish"
+  "flips_to": "neutral/bullish",
+  "result": "triggered",
+  "at_utc": "2026-10-19T01:22:02.519251+00:00"
  },
  "levels_source_note": "Fib levels: Kraken XRP/USD 4h (30d) and daily (90d) candles; walls: XRPL XRP/RLUSD order book; all as of 8:20 AM PT",
  "text": "XRP is at $1.2747 (XRPL DEX XRP/RLUSD order-book mid, 2026-10-18 08:20:58 PDT) and is trending down.\n\nMomentum: 4h RSI 40.37, 1h RSI 31.25, daily RSI 34.73; 4h MACD bullish (histogram +0.0007), and there's a bullish RSI divergence on the 4h (lower low in price, higher low in RSI: 35 -> 37). (Kraken XRP/USD candles, 8:20 AM PT.)\n\nResistance is $1.3050 (XRPL ask wall ~28k XRP; XRPL XRP/RLUSD order book, 8:20 AM PT). A clean break above $1.3050 likely runs to ~$1.3404 (XRPL ask wall ~25k XRP + 90d Fib 50%) before a pullback to ~$1.3050 to retest it. Above that, $1.4173 (30d Fib 61.8%) is the next magnet.\n\nSupport is $1.2700 (30d swing low + XRPL bid wall ~100k XRP; Kraken XRP/USD 4h candles/XRPL XRP/RLUSD order book, 8:20 AM PT). Losing $1.2700 opens $1.2500 (XRPL bid wall ~92k XRP), then $1.2140 (XRPL bid wall ~143k XRP).\n\nWhat changes my mind: a 4h close back above $1.3050 (XRPL ask wall ~28k XRP) would flip me from cautiously bearish to neutral/bullish.\n\nLean: cautiously bearish (from the engine's regime SHARP_DOWN; a designed read, not a probability). Grid stays passive either way.",
  "track_record": {
   "calls": 28,
   "hit": 7,
-  "miss": 6,
+  "miss": 7,
   "no_trigger": 9,
-  "open": 6,
-  "hit_rate_pct": 53.8,
+  "open": 5,
+  "hit_rate_pct": 50.0,
   "note": "scored on XRPL DEX mids sampled each 20-min check (intra-check wicks not seen)"
  },
  "next_read": "daily, first check after 6:45 AM PT"
