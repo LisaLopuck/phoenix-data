@@ -31,21 +31,6 @@
       "rlusdSpent": 150.0
     },
     {
-      "id": "o406",
-      "openedAt": "2026-10-16T17:23:21Z",
-      "invalidation_price": null,
-      "grid_order": true,
-      "grid_status": "cycle_open",
-      "limit_side": "SELL",
-      "limit_price": 1.33659,
-      "limit_qty": 196.956425,
-      "tradeType": "BUY",
-      "xrpBought": 199.387986,
-      "buyPrice": 1.30399,
-      "targetSellPrice": 1.33659,
-      "rlusdSpent": 259.9999
-    },
-    {
       "id": "o449",
       "openedAt": "2026-10-19T23:27:33Z",
       "invalidation_price": null,
@@ -59,36 +44,6 @@
       "sellPrice": 1.341018,
       "targetBuyPrice": 1.30831,
       "rlusdHeld": 234.6782
-    },
-    {
-      "id": "o451",
-      "openedAt": "2026-10-19T23:27:33Z",
-      "invalidation_price": null,
-      "grid_order": true,
-      "grid_status": "resting",
-      "limit_side": "SELL",
-      "limit_price": 1.408727,
-      "limit_qty": 175.0,
-      "tradeType": "SELL",
-      "xrpSold": 175.0,
-      "sellPrice": 1.408727,
-      "targetBuyPrice": 1.374368,
-      "rlusdHeld": 246.5272
-    },
-    {
-      "id": "o452",
-      "openedAt": "2026-10-19T23:27:33Z",
-      "invalidation_price": null,
-      "grid_order": true,
-      "grid_status": "resting",
-      "limit_side": "SELL",
-      "limit_price": 1.440476,
-      "limit_qty": 175.0,
-      "tradeType": "SELL",
-      "xrpSold": 175.0,
-      "sellPrice": 1.440476,
-      "targetBuyPrice": 1.405342,
-      "rlusdHeld": 252.0833
     },
     {
       "id": "o454",
@@ -106,22 +61,80 @@
       "rlusdSpent": 163.69
     },
     {
-      "id": "o458",
-      "openedAt": "2026-10-20T09:28:35Z",
+      "id": "o461",
+      "openedAt": "2026-10-20T15:24:26Z",
+      "invalidation_price": null,
+      "grid_order": true,
+      "grid_status": "cycle_open",
+      "limit_side": "BUY",
+      "limit_price": 1.286358,
+      "limit_qty": 200.801999,
+      "tradeType": "SELL",
+      "xrpSold": 196.956425,
+      "sellPrice": 1.33659,
+      "targetBuyPrice": 1.286358,
+      "rlusdHeld": 263.25
+    },
+    {
+      "id": "o462",
+      "openedAt": "2026-10-20T15:24:26Z",
       "invalidation_price": null,
       "grid_order": true,
       "grid_status": "resting",
       "limit_side": "SELL",
-      "limit_price": 1.371066,
+      "limit_price": 1.387837,
       "limit_qty": 175.0,
       "tradeType": "SELL",
       "xrpSold": 175.0,
-      "sellPrice": 1.371066,
-      "targetBuyPrice": 1.337625,
-      "rlusdHeld": 239.9365
+      "sellPrice": 1.387837,
+      "targetBuyPrice": 1.353987,
+      "rlusdHeld": 242.8715
+    },
+    {
+      "id": "o463",
+      "openedAt": "2026-10-20T15:24:26Z",
+      "invalidation_price": null,
+      "grid_order": true,
+      "grid_status": "resting",
+      "limit_side": "SELL",
+      "limit_price": 1.426759,
+      "limit_qty": 175.0,
+      "tradeType": "SELL",
+      "xrpSold": 175.0,
+      "sellPrice": 1.426759,
+      "targetBuyPrice": 1.39196,
+      "rlusdHeld": 249.6828
+    },
+    {
+      "id": "o464",
+      "openedAt": "2026-10-20T15:24:26Z",
+      "invalidation_price": null,
+      "grid_order": true,
+      "grid_status": "resting",
+      "limit_side": "SELL",
+      "limit_price": 1.475932,
+      "limit_qty": 175.0,
+      "tradeType": "SELL",
+      "xrpSold": 175.0,
+      "sellPrice": 1.475932,
+      "targetBuyPrice": 1.439934,
+      "rlusdHeld": 258.2881
     }
   ],
   "trade_history": [
+    {
+      "id": "c460",
+      "tradeType": "BUY",
+      "closedAt": "2026-10-20T15:24:26Z",
+      "openedAt": "2026-10-16T17:23:21Z",
+      "xrpProfit": 2.431561,
+      "usdProfit": 3.250048,
+      "value_profit_at_close_price": 6.5,
+      "buyPrice": 1.30399,
+      "xrpBought": 199.387986,
+      "sellPrice": 1.33659,
+      "xrpSold": 196.956425
+    },
     {
       "id": "c261",
       "tradeType": "SELL",
@@ -149,8 +162,8 @@
       "xrpSold": 100.783394
     }
   ],
-  "total_profit": 10.4323,
+  "total_profit": 16.936,
   "total_profit_note": "completed grid cycles: RLUSD profit + XRP profit valued at current price",
   "win_rate": 100.0,
-  "total_trades_closed": 2
+  "total_trades_closed": 3
 }
