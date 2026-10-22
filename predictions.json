@@ -20,40 +20,18 @@
    "brier_vs_score": 0.3152
   },
   "80-90": {
-   "n": 63,
+   "n": 64,
    "hits": 43,
-   "hit_rate_pct": 68.3,
-   "brier_vs_score": 0.2498
+   "hit_rate_pct": 67.2,
+   "brier_vs_score": 0.2564
   }
  },
- "scored_total": 144,
+ "scored_total": 145,
  "hits": 73,
- "hit_rate_pct": 50.7,
- "pending": 14,
+ "hit_rate_pct": 50.3,
+ "pending": 15,
  "neutral_calls": 12,
  "recent": [
-  {
-   "date_pt": "2026-10-21 06:23:18 PDT",
-   "timeframe_hours": 24,
-   "direction": "UP",
-   "confidence": 82,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.362575,
-   "target_price": 1.404025,
-   "actual_result": null,
-   "accurate": null
-  },
-  {
-   "date_pt": "2026-10-21 06:23:18 PDT",
-   "timeframe_hours": 48,
-   "direction": "UP",
-   "confidence": 82,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.362575,
-   "target_price": 1.421194,
-   "actual_result": null,
-   "accurate": null
-  },
   {
    "date_pt": "2026-10-21 10:26:31 PDT",
    "timeframe_hours": 24,
@@ -139,6 +117,28 @@
    "confidence_label": "designed score 50-90 (not a probability)",
    "entry_price": 1.340505,
    "target_price": 1.405719,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-22 06:26:55 PDT",
+   "timeframe_hours": 24,
+   "direction": "UP",
+   "confidence": 59,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.322923,
+   "target_price": 1.366817,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-22 06:26:55 PDT",
+   "timeframe_hours": 48,
+   "direction": "UP",
+   "confidence": 59,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.322923,
+   "target_price": 1.384999,
    "actual_result": null,
    "accurate": null
   }
