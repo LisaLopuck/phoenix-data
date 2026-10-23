@@ -2,10 +2,10 @@
  "label": "hit rate by designed-score bucket (score is not a probability)",
  "buckets": {
   "50-59": {
-   "n": 18,
+   "n": 19,
    "hits": 7,
-   "hit_rate_pct": 38.9,
-   "brier_vs_score": 0.277
+   "hit_rate_pct": 36.8,
+   "brier_vs_score": 0.2807
   },
   "60-69": {
    "n": 40,
@@ -26,10 +26,10 @@
    "brier_vs_score": 0.2873
   }
  },
- "scored_total": 154,
+ "scored_total": 155,
  "hits": 73,
- "hit_rate_pct": 47.4,
- "pending": 16,
+ "hit_rate_pct": 47.1,
+ "pending": 15,
  "neutral_calls": 12,
  "recent": [
   {
