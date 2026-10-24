@@ -1,18 +1,18 @@
 {
- "id": "dr19",
- "date_pt": "2026-10-23",
- "time_pt": "2026-10-23 08:27:04 PDT",
- "mid": 1.31022,
+ "id": "dr20",
+ "date_pt": "2026-10-24",
+ "time_pt": "2026-10-24 08:21:00 PDT",
+ "mid": 1.258626,
  "mid_source": "XRPL DEX XRP/RLUSD order-book mid",
- "state": "drifting lower",
+ "state": "stretched to the downside",
  "bias": "bearish",
  "regime": "DOWN",
  "momentum": {
-  "rsi_4h": 47.48,
-  "rsi_1h": 42.43,
-  "rsi_1d": 40.45,
+  "rsi_4h": 35.06,
+  "rsi_1h": 31.18,
+  "rsi_1d": 38.84,
   "macd_4h": "Bearish",
-  "macd_hist_4h": -0.003611,
+  "macd_hist_4h": -0.005821,
   "divergence": null
  },
  "resistance": [
@@ -49,19 +49,19 @@
  ],
  "support": [
   {
-   "price": 1.258,
+   "price": 1.1986,
    "labels": [
-    "90d Fib 61.8%"
+    "XRPL bid wall ~59k XRP"
    ],
    "sources": [
-    "Kraken XRP/USD daily candles"
+    "XRPL XRP/RLUSD order book"
    ],
    "confluence": false
   },
   {
-   "price": 1.205,
+   "price": 1.18,
    "labels": [
-    "XRPL bid wall ~77k XRP"
+    "XRPL bid wall ~30k XRP"
    ],
    "sources": [
     "XRPL XRP/RLUSD order book"
@@ -85,21 +85,17 @@
    "direction": "up",
    "trigger": 1.3349,
    "target": 1.3978,
-   "fail": 1.258,
-   "text": "break above $1.3349 -> ~$1.3978",
-   "max_seen": 1.3074015723284775,
-   "min_seen": 1.2747890103347517
+   "fail": 1.1986,
+   "text": "break above $1.3349 -> ~$1.3978"
   },
   {
    "id": "breakdown",
    "direction": "down",
-   "trigger": 1.258,
-   "target": 1.205,
+   "trigger": 1.1986,
+   "target": 1.18,
    "target2": 1.1529,
    "fail": 1.3349,
-   "text": "lose $1.2580 -> $1.2050 then $1.1529",
-   "max_seen": 1.3074015723284775,
-   "min_seen": 1.2747890103347517
+   "text": "lose $1.1986 -> $1.1800 then $1.1529"
   }
  ],
  "invalidation": {
@@ -107,14 +103,14 @@
   "level": 1.3349,
   "flips_to": "neutral/bullish"
  },
- "levels_source_note": "Fib levels: Kraken XRP/USD 4h (30d) and daily (90d) candles; walls: XRPL XRP/RLUSD order book; all as of 8:27 AM PT",
- "text": "XRP is at $1.3102 (XRPL DEX XRP/RLUSD order-book mid, 2026-10-23 08:27:04 PDT) and is drifting lower.\n\nMomentum: 4h RSI 47.48, 1h RSI 42.43, daily RSI 40.45; 4h MACD bearish (histogram -0.0036), with no RSI divergence on the 4h. (Kraken XRP/USD candles, 8:27 AM PT.)\n\nResistance is $1.3349 (30d Fib 78.6%; Kraken XRP/USD 4h candles, 8:27 AM PT). A clean break above $1.3349 likely runs to ~$1.3978 (30d Fib 61.8%) before a pullback to ~$1.3349 to retest it. Above that, $1.4268 (90d Fib 38.2%) is the next magnet.\n\nSupport is $1.2580 (90d Fib 61.8%; Kraken XRP/USD daily candles, 8:27 AM PT). Losing $1.2580 opens $1.2050 (XRPL bid wall ~77k XRP), then $1.1529 (30d 127.2% ext (down)).\n\nWhat changes my mind: a 4h close back above $1.3349 (30d Fib 78.6%) would flip me from bearish to neutral/bullish.\n\nLean: bearish (from the engine's regime DOWN; a designed read, not a probability). Grid stays passive either way.",
+ "levels_source_note": "Fib levels: Kraken XRP/USD 4h (30d) and daily (90d) candles; walls: XRPL XRP/RLUSD order book; all as of 8:21 AM PT",
+ "text": "XRP is at $1.2586 (XRPL DEX XRP/RLUSD order-book mid, 2026-10-24 08:21:00 PDT) and is stretched to the downside.\n\nMomentum: 4h RSI 35.06, 1h RSI 31.18, daily RSI 38.84; 4h MACD bearish (histogram -0.0058), with no RSI divergence on the 4h. (Kraken XRP/USD candles, 8:21 AM PT.)\n\nResistance is $1.3349 (30d Fib 78.6%; Kraken XRP/USD 4h candles, 8:21 AM PT). A clean break above $1.3349 likely runs to ~$1.3978 (30d Fib 61.8%) before a pullback to ~$1.3349 to retest it. Above that, $1.4268 (90d Fib 38.2%) is the next magnet.\n\nSupport is $1.1986 (XRPL bid wall ~59k XRP; XRPL XRP/RLUSD order book, 8:21 AM PT). Losing $1.1986 opens $1.1800 (XRPL bid wall ~30k XRP), then $1.1529 (30d 127.2% ext (down)).\n\nWhat changes my mind: a 4h close back above $1.3349 (30d Fib 78.6%) would flip me from bearish to neutral/bullish.\n\nLean: bearish (from the engine's regime DOWN; a designed read, not a probability). Grid stays passive either way.",
  "track_record": {
-  "calls": 38,
+  "calls": 40,
   "hit": 10,
   "miss": 10,
-  "no_trigger": 13,
-  "open": 5,
+  "no_trigger": 14,
+  "open": 6,
   "hit_rate_pct": 50.0,
   "note": "scored on XRPL DEX mids sampled each 20-min check (intra-check wicks not seen)"
  },

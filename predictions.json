@@ -2,10 +2,10 @@
  "label": "hit rate by designed-score bucket (score is not a probability)",
  "buckets": {
   "50-59": {
-   "n": 19,
+   "n": 20,
    "hits": 7,
-   "hit_rate_pct": 36.8,
-   "brier_vs_score": 0.2807
+   "hit_rate_pct": 35.0,
+   "brier_vs_score": 0.2841
   },
   "60-69": {
    "n": 40,
@@ -20,40 +20,18 @@
    "brier_vs_score": 0.337
   },
   "80-90": {
-   "n": 74,
-   "hits": 45,
-   "hit_rate_pct": 60.8,
-   "brier_vs_score": 0.2971
+   "n": 75,
+   "hits": 46,
+   "hit_rate_pct": 61.3,
+   "brier_vs_score": 0.2936
   }
  },
- "scored_total": 163,
- "hits": 77,
- "hit_rate_pct": 47.2,
+ "scored_total": 165,
+ "hits": 78,
+ "hit_rate_pct": 47.3,
  "pending": 15,
  "neutral_calls": 12,
  "recent": [
-  {
-   "date_pt": "2026-10-23 06:25:19 PDT",
-   "timeframe_hours": 24,
-   "direction": "DOWN",
-   "confidence": 82,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.318147,
-   "target_price": 1.277627,
-   "actual_result": null,
-   "accurate": null
-  },
-  {
-   "date_pt": "2026-10-23 06:25:19 PDT",
-   "timeframe_hours": 48,
-   "direction": "DOWN",
-   "confidence": 82,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.318147,
-   "target_price": 1.260843,
-   "actual_result": null,
-   "accurate": null
-  },
   {
    "date_pt": "2026-10-23 12:21:29 PDT",
    "timeframe_hours": 24,
@@ -139,6 +117,28 @@
    "confidence_label": "designed score 50-90 (not a probability)",
    "entry_price": 1.274789,
    "target_price": 1.220236,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-24 08:21:00 PDT",
+   "timeframe_hours": 24,
+   "direction": "DOWN",
+   "confidence": 88,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.258626,
+   "target_price": 1.221321,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-24 08:21:00 PDT",
+   "timeframe_hours": 48,
+   "direction": "DOWN",
+   "confidence": 88,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.258626,
+   "target_price": 1.205868,
    "actual_result": null,
    "accurate": null
   }
