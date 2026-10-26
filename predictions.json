@@ -8,10 +8,10 @@
    "brier_vs_score": 0.2841
   },
   "60-69": {
-   "n": 40,
-   "hits": 11,
-   "hit_rate_pct": 27.5,
-   "brier_vs_score": 0.3308
+   "n": 41,
+   "hits": 12,
+   "hit_rate_pct": 29.3,
+   "brier_vs_score": 0.3259
   },
   "70-79": {
    "n": 36,
@@ -20,40 +20,18 @@
    "brier_vs_score": 0.3219
   },
   "80-90": {
-   "n": 83,
+   "n": 84,
    "hits": 50,
-   "hit_rate_pct": 60.2,
-   "brier_vs_score": 0.3035
+   "hit_rate_pct": 59.5,
+   "brier_vs_score": 0.3085
   }
  },
- "scored_total": 179,
- "hits": 86,
- "hit_rate_pct": 48.0,
+ "scored_total": 181,
+ "hits": 87,
+ "hit_rate_pct": 48.1,
  "pending": 15,
  "neutral_calls": 12,
  "recent": [
-  {
-   "date_pt": "2026-10-24 22:27:26 PDT",
-   "timeframe_hours": 24,
-   "direction": "DOWN",
-   "confidence": 64,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.308931,
-   "target_price": 1.269716,
-   "actual_result": null,
-   "accurate": null
-  },
-  {
-   "date_pt": "2026-10-24 22:27:26 PDT",
-   "timeframe_hours": 48,
-   "direction": "DOWN",
-   "confidence": 64,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.308931,
-   "target_price": 1.253472,
-   "actual_result": null,
-   "accurate": null
-  },
   {
    "date_pt": "2026-10-25 04:26:19 PDT",
    "timeframe_hours": 24,
@@ -139,6 +117,28 @@
    "confidence_label": "designed score 50-90 (not a probability)",
    "entry_price": 1.293281,
    "target_price": 1.241923,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-25 22:28:51 PDT",
+   "timeframe_hours": 24,
+   "direction": "DOWN",
+   "confidence": 80,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.290723,
+   "target_price": 1.252647,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-25 22:28:51 PDT",
+   "timeframe_hours": 48,
+   "direction": "DOWN",
+   "confidence": 80,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.290723,
+   "target_price": 1.236875,
    "actual_result": null,
    "accurate": null
   }
