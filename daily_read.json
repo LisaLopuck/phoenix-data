@@ -92,7 +92,7 @@
    "fail": 1.3194,
    "text": "break above $1.3316 -> ~$1.3707",
    "max_seen": 1.32216575198687,
-   "min_seen": 1.3219738915448196
+   "min_seen": 1.3186604262790076
   },
   {
    "id": "breakdown",
@@ -103,7 +103,8 @@
    "fail": 1.3316,
    "text": "lose $1.3194 -> $1.2589 then $1.1697",
    "max_seen": 1.32216575198687,
-   "min_seen": 1.3219738915448196
+   "min_seen": 1.3186604262790076,
+   "triggered_utc": "2026-10-27T21:23:50.630757+00:00"
   }
  ],
  "invalidation": {
@@ -112,7 +113,9 @@
    1.3194,
    1.3316
   ],
-  "flips_to": "trend in the break direction"
+  "flips_to": "trend in the break direction",
+  "result": "triggered",
+  "at_utc": "2026-10-27T21:23:50.630757+00:00"
  },
  "levels_source_note": "Fib levels: Kraken XRP/USD 4h (30d) and daily (90d) candles; walls: XRPL XRP/RLUSD order book; all as of 8:26 AM PT",
  "text": "XRP is at $1.3235 (XRPL DEX XRP/RLUSD order-book mid, 2026-10-27 08:26:26 PDT) and is drifting lower.\n\nMomentum: 4h RSI 50.43, 1h RSI 63.51, daily RSI 41.56; 4h MACD bullish (histogram +0.0023), with no RSI divergence on the 4h. (Kraken XRP/USD candles, 8:26 AM PT.)\n\nResistance is $1.3316 (XRPL ask wall ~26k XRP; XRPL XRP/RLUSD order book, 8:26 AM PT). A clean break above $1.3316 likely runs to ~$1.3707 (30d Fib 61.8%) before a pullback to ~$1.3316 to retest it. Above that, $1.4069 (30d Fib 50%) is the next magnet.\n\nSupport is $1.3194 (30d Fib 78.6% + XRPL bid wall ~67k XRP; Kraken XRP/USD 4h candles/XRPL XRP/RLUSD order book, 8:26 AM PT). Losing $1.3194 opens $1.2589 (90d Fib 61.8% + XRPL bid wall ~58k XRP), then $1.1697 (30d 127.2% ext (down)).\n\nWhat changes my mind: I'm neutral inside $1.3194 to $1.3316; a 4h close outside that range picks the direction.\n\nLean: neutral (from the engine's regime RANGE; a designed read, not a probability). Grid stays passive either way.",
