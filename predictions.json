@@ -14,46 +14,24 @@
    "brier_vs_score": 0.3212
   },
   "70-79": {
-   "n": 40,
+   "n": 41,
    "hits": 20,
-   "hit_rate_pct": 50.0,
-   "brier_vs_score": 0.3205
+   "hit_rate_pct": 48.8,
+   "brier_vs_score": 0.3264
   },
   "80-90": {
-   "n": 89,
+   "n": 90,
    "hits": 51,
-   "hit_rate_pct": 57.3,
-   "brier_vs_score": 0.3248
+   "hit_rate_pct": 56.7,
+   "brier_vs_score": 0.3286
   }
  },
- "scored_total": 191,
+ "scored_total": 193,
  "hits": 91,
- "hit_rate_pct": 47.6,
+ "hit_rate_pct": 47.2,
  "pending": 15,
- "neutral_calls": 14,
+ "neutral_calls": 16,
  "recent": [
-  {
-   "date_pt": "2026-10-26 04:27:17 PDT",
-   "timeframe_hours": 24,
-   "direction": "DOWN",
-   "confidence": 82,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.28809,
-   "target_price": 1.250349,
-   "actual_result": null,
-   "accurate": null
-  },
-  {
-   "date_pt": "2026-10-26 04:27:17 PDT",
-   "timeframe_hours": 48,
-   "direction": "DOWN",
-   "confidence": 82,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.28809,
-   "target_price": 1.234716,
-   "actual_result": null,
-   "accurate": null
-  },
   {
    "date_pt": "2026-10-26 08:34:59 PDT",
    "timeframe_hours": 24,
@@ -138,6 +116,28 @@
    "confidence": null,
    "confidence_label": "designed score 50-90 (not a probability)",
    "entry_price": 1.299134,
+   "target_price": null,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-27 06:31:46 PDT",
+   "timeframe_hours": 24,
+   "direction": "NEUTRAL",
+   "confidence": null,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.311637,
+   "target_price": null,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-27 06:31:46 PDT",
+   "timeframe_hours": 48,
+   "direction": "NEUTRAL",
+   "confidence": null,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.311637,
    "target_price": null,
    "actual_result": null,
    "accurate": null
