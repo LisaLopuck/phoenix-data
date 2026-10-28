@@ -91,8 +91,9 @@
    "target": 1.3707,
    "fail": 1.3194,
    "text": "break above $1.3316 -> ~$1.3707",
-   "max_seen": 1.3295183362353762,
-   "min_seen": 1.3186604262790076
+   "max_seen": 1.3367307711024083,
+   "min_seen": 1.3186604262790076,
+   "triggered_utc": "2026-10-28T03:30:35.989634+00:00"
   },
   {
    "id": "breakdown",
@@ -102,9 +103,12 @@
    "target2": 1.1697,
    "fail": 1.3316,
    "text": "lose $1.3194 -> $1.2589 then $1.1697",
-   "max_seen": 1.3295183362353762,
+   "max_seen": 1.3367307711024083,
    "min_seen": 1.3186604262790076,
-   "triggered_utc": "2026-10-27T21:23:50.630757+00:00"
+   "triggered_utc": "2026-10-27T21:23:50.630757+00:00",
+   "outcome": "miss",
+   "scored_utc": "2026-10-28T03:30:35.989634+00:00",
+   "scored_price": 1.3367307711024083
   }
  ],
  "invalidation": {
@@ -122,10 +126,10 @@
  "track_record": {
   "calls": 46,
   "hit": 10,
-  "miss": 10,
+  "miss": 12,
   "no_trigger": 20,
-  "open": 6,
-  "hit_rate_pct": 50.0,
+  "open": 4,
+  "hit_rate_pct": 45.5,
   "note": "scored on XRPL DEX mids sampled each 20-min check (intra-check wicks not seen)"
  },
  "next_read": "daily, first check after 6:45 AM PT"
