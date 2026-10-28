@@ -1,28 +1,38 @@
 {
- "id": "dr23",
- "date_pt": "2026-10-27",
- "time_pt": "2026-10-27 08:26:26 PDT",
- "mid": 1.323456,
+ "id": "dr24",
+ "date_pt": "2026-10-28",
+ "time_pt": "2026-10-28 08:24:36 PDT",
+ "mid": 1.313895,
  "mid_source": "XRPL DEX XRP/RLUSD order-book mid",
- "state": "drifting lower",
- "bias": "neutral",
- "regime": "RANGE",
+ "state": "consolidating (no real trend on the 4h)",
+ "bias": "bullish",
+ "regime": "UP",
  "momentum": {
-  "rsi_4h": 50.43,
-  "rsi_1h": 63.51,
-  "rsi_1d": 41.56,
+  "rsi_4h": 57.11,
+  "rsi_1h": 41.63,
+  "rsi_1d": 45.84,
   "macd_4h": "Bullish",
-  "macd_hist_4h": 0.002307,
+  "macd_hist_4h": 0.004342,
   "divergence": null
  },
  "resistance": [
   {
-   "price": 1.3316,
+   "price": 1.3191,
    "labels": [
-    "XRPL ask wall ~26k XRP"
+    "30d Fib 78.6%"
    ],
    "sources": [
-    "XRPL XRP/RLUSD order book"
+    "Kraken XRP/USD 4h candles"
+   ],
+   "confluence": false
+  },
+  {
+   "price": 1.3424,
+   "labels": [
+    "90d Fib 50%"
+   ],
+   "sources": [
+    "Kraken XRP/USD daily candles"
    ],
    "confluence": false
   },
@@ -35,50 +45,36 @@
     "Kraken XRP/USD 4h candles"
    ],
    "confluence": false
-  },
-  {
-   "price": 1.4069,
-   "labels": [
-    "30d Fib 50%"
-   ],
-   "sources": [
-    "Kraken XRP/USD 4h candles"
-   ],
-   "confluence": false
   }
  ],
  "support": [
   {
-   "price": 1.3194,
+   "price": 1.258,
    "labels": [
-    "30d Fib 78.6%",
-    "XRPL bid wall ~67k XRP"
+    "90d Fib 61.8%"
    ],
    "sources": [
-    "Kraken XRP/USD 4h candles",
-    "XRPL XRP/RLUSD order book"
+    "Kraken XRP/USD daily candles"
    ],
-   "confluence": true
+   "confluence": false
   },
   {
-   "price": 1.2589,
+   "price": 1.18,
    "labels": [
-    "90d Fib 61.8%",
-    "XRPL bid wall ~58k XRP"
+    "XRPL bid wall ~32k XRP"
    ],
    "sources": [
-    "Kraken XRP/USD daily candles",
     "XRPL XRP/RLUSD order book"
    ],
-   "confluence": true
+   "confluence": false
   },
   {
-   "price": 1.1697,
+   "price": 1.1378,
    "labels": [
-    "30d 127.2% ext (down)"
+    "90d Fib 78.6%"
    ],
    "sources": [
-    "Kraken XRP/USD 4h candles"
+    "Kraken XRP/USD daily candles"
    ],
    "confluence": false
   }
@@ -87,51 +83,34 @@
   {
    "id": "breakout",
    "direction": "up",
-   "trigger": 1.3316,
-   "target": 1.3707,
-   "fail": 1.3194,
-   "text": "break above $1.3316 -> ~$1.3707",
-   "max_seen": 1.3367307711024083,
-   "min_seen": 1.314662875,
-   "triggered_utc": "2026-10-28T03:30:35.989634+00:00",
-   "outcome": "miss",
-   "scored_utc": "2026-10-28T13:32:06.814989+00:00",
-   "scored_price": 1.314662875
+   "trigger": 1.3191,
+   "target": 1.3424,
+   "fail": 1.258,
+   "text": "break above $1.3191 -> ~$1.3424"
   },
   {
    "id": "breakdown",
    "direction": "down",
-   "trigger": 1.3194,
-   "target": 1.2589,
-   "target2": 1.1697,
-   "fail": 1.3316,
-   "text": "lose $1.3194 -> $1.2589 then $1.1697",
-   "max_seen": 1.3367307711024083,
-   "min_seen": 1.3186604262790076,
-   "triggered_utc": "2026-10-27T21:23:50.630757+00:00",
-   "outcome": "miss",
-   "scored_utc": "2026-10-28T03:30:35.989634+00:00",
-   "scored_price": 1.3367307711024083
+   "trigger": 1.258,
+   "target": 1.18,
+   "target2": 1.1378,
+   "fail": 1.3191,
+   "text": "lose $1.2580 -> $1.1800 then $1.1378"
   }
  ],
  "invalidation": {
-  "condition": "4h close outside range",
-  "level": [
-   1.3194,
-   1.3316
-  ],
-  "flips_to": "trend in the break direction",
-  "result": "triggered",
-  "at_utc": "2026-10-27T21:23:50.630757+00:00"
+  "condition": "4h close below",
+  "level": 1.258,
+  "flips_to": "neutral/bearish"
  },
- "levels_source_note": "Fib levels: Kraken XRP/USD 4h (30d) and daily (90d) candles; walls: XRPL XRP/RLUSD order book; all as of 8:26 AM PT",
- "text": "XRP is at $1.3235 (XRPL DEX XRP/RLUSD order-book mid, 2026-10-27 08:26:26 PDT) and is drifting lower.\n\nMomentum: 4h RSI 50.43, 1h RSI 63.51, daily RSI 41.56; 4h MACD bullish (histogram +0.0023), with no RSI divergence on the 4h. (Kraken XRP/USD candles, 8:26 AM PT.)\n\nResistance is $1.3316 (XRPL ask wall ~26k XRP; XRPL XRP/RLUSD order book, 8:26 AM PT). A clean break above $1.3316 likely runs to ~$1.3707 (30d Fib 61.8%) before a pullback to ~$1.3316 to retest it. Above that, $1.4069 (30d Fib 50%) is the next magnet.\n\nSupport is $1.3194 (30d Fib 78.6% + XRPL bid wall ~67k XRP; Kraken XRP/USD 4h candles/XRPL XRP/RLUSD order book, 8:26 AM PT). Losing $1.3194 opens $1.2589 (90d Fib 61.8% + XRPL bid wall ~58k XRP), then $1.1697 (30d 127.2% ext (down)).\n\nWhat changes my mind: I'm neutral inside $1.3194 to $1.3316; a 4h close outside that range picks the direction.\n\nLean: neutral (from the engine's regime RANGE; a designed read, not a probability). Grid stays passive either way.",
+ "levels_source_note": "Fib levels: Kraken XRP/USD 4h (30d) and daily (90d) candles; walls: XRPL XRP/RLUSD order book; all as of 8:24 AM PT",
+ "text": "XRP is at $1.3139 (XRPL DEX XRP/RLUSD order-book mid, 2026-10-28 08:24:36 PDT) and is consolidating (no real trend on the 4h).\n\nMomentum: 4h RSI 57.11, 1h RSI 41.63, daily RSI 45.84; 4h MACD bullish (histogram +0.0043), with no RSI divergence on the 4h. (Kraken XRP/USD candles, 8:24 AM PT.)\n\nResistance is $1.3191 (30d Fib 78.6%; Kraken XRP/USD 4h candles, 8:24 AM PT). A clean break above $1.3191 likely runs to ~$1.3424 (90d Fib 50%) before a pullback to ~$1.3191 to retest it. Above that, $1.3707 (30d Fib 61.8%) is the next magnet.\n\nSupport is $1.2580 (90d Fib 61.8%; Kraken XRP/USD daily candles, 8:24 AM PT). Losing $1.2580 opens $1.1800 (XRPL bid wall ~32k XRP), then $1.1378 (90d Fib 78.6%).\n\nWhat changes my mind: a 4h close below $1.2580 (90d Fib 61.8%) would flip me from bullish to neutral/bearish and put $1.1800 in play.\n\nLean: bullish (from the engine's regime UP; a designed read, not a probability). Grid stays passive either way.",
  "track_record": {
-  "calls": 46,
+  "calls": 48,
   "hit": 10,
   "miss": 13,
   "no_trigger": 20,
-  "open": 3,
+  "open": 5,
   "hit_rate_pct": 43.5,
   "note": "scored on XRPL DEX mids sampled each 20-min check (intra-check wicks not seen)"
  },
