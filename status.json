@@ -1,12 +1,12 @@
 {
-  "price": 1.292439,
-  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 107977253, 2026-10-29 02:28:19 PDT",
-  "price_time_pt": "2026-10-29 02:28:19 PDT",
-  "price_change_24h": -2.981,
+  "price": 1.28976,
+  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 107979000, 2026-10-29 04:23:33 PDT",
+  "price_time_pt": "2026-10-29 04:23:33 PDT",
+  "price_change_24h": -2.556,
   "price_change_24h_source": "Kraken XRP/USD 1h candles",
-  "btc_price": 80079.2,
-  "btc_dominance": 59.46,
-  "btc_dominance_trend": "falling",
+  "btc_price": 80115.1,
+  "btc_dominance": 59.99,
+  "btc_dominance_trend": "rising",
   "fear_greed": {
     "value": 51,
     "classification": "Neutral",
@@ -14,7 +14,7 @@
   },
   "rsi": 41.89,
   "rsi_timeframe": "4h (Kraken XRP/USD)",
-  "rsi_1h": 35.73,
+  "rsi_1h": 38.22,
   "macd": {
     "line": 0.001201,
     "signal": 0.003305,
@@ -24,13 +24,13 @@
   "portfolio": {
     "xrp": 9817.35,
     "rlusd": 5229.712,
-    "total_usd": 17918.04,
-    "growth_pct": 0.2942,
-    "trading_edge_rlusd": -6.3521,
-    "price_effect_rlusd": 58.91,
+    "total_usd": 17891.74,
+    "growth_pct": 0.147,
+    "trading_edge_rlusd": -5.8627,
+    "price_effect_rlusd": 32.12,
     "xrp_delta_vs_hold": -182.65,
     "rlusd_delta_vs_hold": 229.712,
-    "hold_value_rlusd": 17924.39
+    "hold_value_rlusd": 17897.6
   },
   "mode": "GRID-RANGE-2%",
   "brain_enabled": true,
@@ -184,62 +184,62 @@
     "78.6%": 1.137782,
     "100%": 0.98471
   },
-  "amm_spot": 1.292363,
-  "best_bid": 1.2922988605110648,
-  "best_ask": 1.29258,
+  "amm_spot": 1.291529,
+  "best_bid": 1.2892100000000002,
+  "best_ask": 1.29031,
   "order_book_walls": {
     "bids": [
       {
-        "price": 1.28943,
-        "size_xrp": 77759.6,
-        "dist_pct": -0.23,
+        "price": 1.2872,
+        "size_xrp": 60949.4,
+        "dist_pct": -0.2,
         "is_wall": true,
-        "strength": 19.9
+        "strength": 15.9
       },
       {
-        "price": 1.2525,
-        "size_xrp": 29374.6,
-        "dist_pct": -3.09,
+        "price": 1.254198,
+        "size_xrp": 24200.8,
+        "dist_pct": -2.76,
         "is_wall": true,
-        "strength": 7.5
+        "strength": 6.3
       },
       {
-        "price": 1.23098,
-        "size_xrp": 57547.0,
-        "dist_pct": -4.76,
+        "price": 1.22821,
+        "size_xrp": 58640.5,
+        "dist_pct": -4.77,
         "is_wall": true,
-        "strength": 14.7
+        "strength": 15.3
       }
     ],
     "asks": [
       {
-        "price": 1.29401,
-        "size_xrp": 48753.4,
-        "dist_pct": 0.12,
+        "price": 1.29153,
+        "size_xrp": 55835.8,
+        "dist_pct": 0.14,
         "is_wall": true,
-        "strength": 12.5
+        "strength": 14.6
       },
       {
         "price": 1.443,
-        "size_xrp": 52337.6,
-        "dist_pct": 11.65,
+        "size_xrp": 54778.4,
+        "dist_pct": 11.88,
         "is_wall": true,
-        "strength": 13.4
+        "strength": 14.3
       }
     ]
   },
   "amm_depth": {
     "1pct": {
-      "xrp_to_push_down": 9277.0,
-      "xrp_to_push_up": 9139.0
+      "xrp_to_push_down": 9280.0,
+      "xrp_to_push_up": 9142.0
     },
     "2pct": {
-      "xrp_to_push_down": 18697.0,
-      "xrp_to_push_up": 18144.0
+      "xrp_to_push_down": 18703.0,
+      "xrp_to_push_up": 18150.0
     },
     "5pct": {
-      "xrp_to_push_down": 47841.0,
-      "xrp_to_push_up": 44381.0
+      "xrp_to_push_down": 47856.0,
+      "xrp_to_push_up": 44396.0
     }
   },
   "indicator_sources": {
@@ -248,7 +248,7 @@
     "d1": "Kraken XRP/USD daily candles",
     "fear_greed": "alternative.me Fear & Greed",
     "btc_dominance": "CoinGecko global",
-    "walls": "XRPL XRP/RLUSD full funded order book (ledger 107977252), 0.5% bands, median/MAD walls + AMM bands"
+    "walls": "XRPL XRP/RLUSD full funded order book (ledger 107978999), 0.5% bands, median/MAD walls + AMM bands"
   },
   "_note": "Phoenix 2.0 paper grid. growth_pct includes price movement; trading_edge_rlusd is edge vs the hold baseline."
 }
