@@ -1,26 +1,35 @@
 {
- "id": "dr25",
- "date_pt": "2026-10-29",
- "time_pt": "2026-10-29 08:21:11 PDT",
- "mid": 1.306951,
+ "id": "dr26",
+ "date_pt": "2026-10-30",
+ "time_pt": "2026-10-30 08:27:55 PDT",
+ "mid": 1.252033,
  "mid_source": "XRPL DEX XRP/RLUSD order-book mid",
  "state": "consolidating (no real trend on the 4h)",
  "bias": "bearish",
  "regime": "DOWN",
  "momentum": {
-  "rsi_4h": 43.07,
-  "rsi_1h": 48.68,
-  "rsi_1d": 45.14,
+  "rsi_4h": 36.24,
+  "rsi_1h": 42.26,
+  "rsi_1d": 34.01,
   "macd_4h": "Bearish",
-  "macd_hist_4h": -0.003038,
-  "divergence": {
-   "type": "bearish",
-   "text": "bearish RSI divergence on the 4h (higher high in price, lower high in RSI: 64 -> 56)"
-  }
+  "macd_hist_4h": -0.008035,
+  "divergence": null
  },
  "resistance": [
   {
-   "price": 1.3191,
+   "price": 1.256,
+   "labels": [
+    "XRPL ask wall ~66k XRP",
+    "90d Fib 61.8%"
+   ],
+   "sources": [
+    "Kraken XRP/USD daily candles",
+    "XRPL XRP/RLUSD order book"
+   ],
+   "confluence": true
+  },
+  {
+   "price": 1.2735,
    "labels": [
     "30d Fib 78.6%"
    ],
@@ -30,19 +39,7 @@
    "confluence": false
   },
   {
-   "price": 1.3446,
-   "labels": [
-    "90d Fib 50%",
-    "XRPL ask wall ~27k XRP"
-   ],
-   "sources": [
-    "Kraken XRP/USD daily candles",
-    "XRPL XRP/RLUSD order book"
-   ],
-   "confluence": true
-  },
-  {
-   "price": 1.3707,
+   "price": 1.3337,
    "labels": [
     "30d Fib 61.8%"
    ],
@@ -54,19 +51,21 @@
  ],
  "support": [
   {
-   "price": 1.258,
+   "price": 1.1945,
    "labels": [
-    "90d Fib 61.8%"
+    "XRPL bid wall ~63k XRP",
+    "30d swing low"
    ],
    "sources": [
-    "Kraken XRP/USD daily candles"
+    "Kraken XRP/USD 4h candles",
+    "XRPL XRP/RLUSD order book"
    ],
-   "confluence": false
+   "confluence": true
   },
   {
-   "price": 1.18,
+   "price": 1.157,
    "labels": [
-    "XRPL bid wall ~32k XRP"
+    "XRPL bid wall ~421k XRP"
    ],
    "sources": [
     "XRPL XRP/RLUSD order book"
@@ -74,53 +73,50 @@
    "confluence": false
   },
   {
-   "price": 1.1378,
+   "price": 1.1389,
    "labels": [
-    "90d Fib 78.6%"
+    "90d Fib 78.6%",
+    "XRPL bid wall ~85k XRP"
    ],
    "sources": [
-    "Kraken XRP/USD daily candles"
+    "Kraken XRP/USD daily candles",
+    "XRPL XRP/RLUSD order book"
    ],
-   "confluence": false
+   "confluence": true
   }
  ],
  "calls": [
   {
    "id": "breakout",
    "direction": "up",
-   "trigger": 1.3191,
-   "target": 1.3446,
-   "fail": 1.258,
-   "text": "break above $1.3191 -> ~$1.3446",
-   "max_seen": 1.2969895,
-   "min_seen": 1.2141560125000002
+   "trigger": 1.256,
+   "target": 1.2735,
+   "fail": 1.1945,
+   "text": "break above $1.2560 -> ~$1.2735"
   },
   {
    "id": "breakdown",
    "direction": "down",
-   "trigger": 1.258,
-   "target": 1.18,
-   "target2": 1.1378,
-   "fail": 1.3191,
-   "text": "lose $1.2580 -> $1.1800 then $1.1378",
-   "max_seen": 1.2969895,
-   "min_seen": 1.2141560125000002,
-   "triggered_utc": "2026-10-29T23:25:30.738093+00:00"
+   "trigger": 1.1945,
+   "target": 1.157,
+   "target2": 1.1389,
+   "fail": 1.256,
+   "text": "lose $1.1945 -> $1.1570 then $1.1389"
   }
  ],
  "invalidation": {
   "condition": "4h close above",
-  "level": 1.3191,
+  "level": 1.256,
   "flips_to": "neutral/bullish"
  },
- "levels_source_note": "Fib levels: Kraken XRP/USD 4h (30d) and daily (90d) candles; walls: XRPL XRP/RLUSD order book; all as of 8:21 AM PT",
- "text": "XRP is at $1.3070 (XRPL DEX XRP/RLUSD order-book mid, 2026-10-29 08:21:11 PDT) and is consolidating (no real trend on the 4h).\n\nMomentum: 4h RSI 43.07, 1h RSI 48.68, daily RSI 45.14; 4h MACD bearish (histogram -0.0030), and there's a bearish RSI divergence on the 4h (higher high in price, lower high in RSI: 64 -> 56). (Kraken XRP/USD candles, 8:21 AM PT.)\n\nResistance is $1.3191 (30d Fib 78.6%; Kraken XRP/USD 4h candles, 8:21 AM PT). A clean break above $1.3191 likely runs to ~$1.3446 (90d Fib 50% + XRPL ask wall ~27k XRP) before a pullback to ~$1.3191 to retest it. Above that, $1.3707 (30d Fib 61.8%) is the next magnet.\n\nSupport is $1.2580 (90d Fib 61.8%; Kraken XRP/USD daily candles, 8:21 AM PT). Losing $1.2580 opens $1.1800 (XRPL bid wall ~32k XRP), then $1.1378 (90d Fib 78.6%).\n\nWhat changes my mind: a 4h close back above $1.3191 (30d Fib 78.6%) would flip me from bearish to neutral/bullish.\n\nLean: bearish (from the engine's regime DOWN; a designed read, not a probability). Grid stays passive either way.",
+ "levels_source_note": "Fib levels: Kraken XRP/USD 4h (30d) and daily (90d) candles; walls: XRPL XRP/RLUSD order book; all as of 8:27 AM PT",
+ "text": "XRP is at $1.2520 (XRPL DEX XRP/RLUSD order-book mid, 2026-10-30 08:27:55 PDT) and is consolidating (no real trend on the 4h).\n\nMomentum: 4h RSI 36.24, 1h RSI 42.26, daily RSI 34.01; 4h MACD bearish (histogram -0.0080), with no RSI divergence on the 4h. (Kraken XRP/USD candles, 8:27 AM PT.)\n\nResistance is $1.2560 (XRPL ask wall ~66k XRP + 90d Fib 61.8%; Kraken XRP/USD daily candles/XRPL XRP/RLUSD order book, 8:27 AM PT). A clean break above $1.2560 likely runs to ~$1.2735 (30d Fib 78.6%) before a pullback to ~$1.2560 to retest it. Above that, $1.3337 (30d Fib 61.8%) is the next magnet.\n\nSupport is $1.1945 (XRPL bid wall ~63k XRP + 30d swing low; Kraken XRP/USD 4h candles/XRPL XRP/RLUSD order book, 8:27 AM PT). Losing $1.1945 opens $1.1570 (XRPL bid wall ~421k XRP), then $1.1389 (90d Fib 78.6% + XRPL bid wall ~85k XRP).\n\nWhat changes my mind: a 4h close back above $1.2560 (XRPL ask wall ~66k XRP) would flip me from bearish to neutral/bullish.\n\nLean: bearish (from the engine's regime DOWN; a designed read, not a probability). Grid stays passive either way.",
  "track_record": {
-  "calls": 50,
+  "calls": 52,
   "hit": 10,
   "miss": 16,
   "no_trigger": 21,
-  "open": 3,
+  "open": 5,
   "hit_rate_pct": 38.5,
   "note": "scored on XRPL DEX mids sampled each 20-min check (intra-check wicks not seen)"
  },
