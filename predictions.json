@@ -8,10 +8,10 @@
    "brier_vs_score": 0.2841
   },
   "60-69": {
-   "n": 61,
+   "n": 62,
    "hits": 18,
-   "hit_rate_pct": 29.5,
-   "brier_vs_score": 0.3323
+   "hit_rate_pct": 29.0,
+   "brier_vs_score": 0.334
   },
   "70-79": {
    "n": 48,
@@ -20,40 +20,18 @@
    "brier_vs_score": 0.3548
   },
   "80-90": {
-   "n": 92,
+   "n": 93,
    "hits": 51,
-   "hit_rate_pct": 55.4,
-   "brier_vs_score": 0.3357
+   "hit_rate_pct": 54.8,
+   "brier_vs_score": 0.3394
   }
  },
- "scored_total": 221,
+ "scored_total": 223,
  "hits": 96,
- "hit_rate_pct": 43.4,
+ "hit_rate_pct": 43.0,
  "pending": 15,
  "neutral_calls": 16,
  "recent": [
-  {
-   "date_pt": "2026-10-29 18:19:24 PDT",
-   "timeframe_hours": 24,
-   "direction": "DOWN",
-   "confidence": 82,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.214156,
-   "target_price": 1.166974,
-   "actual_result": null,
-   "accurate": null
-  },
-  {
-   "date_pt": "2026-10-29 18:19:24 PDT",
-   "timeframe_hours": 48,
-   "direction": "DOWN",
-   "confidence": 82,
-   "confidence_label": "designed score 50-90 (not a probability)",
-   "entry_price": 1.214156,
-   "target_price": 1.14743,
-   "actual_result": null,
-   "accurate": null
-  },
   {
    "date_pt": "2026-10-29 22:20:04 PDT",
    "timeframe_hours": 24,
@@ -139,6 +117,28 @@
    "confidence_label": "designed score 50-90 (not a probability)",
    "entry_price": 1.24281,
    "target_price": 1.168815,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-30 18:28:51 PDT",
+   "timeframe_hours": 24,
+   "direction": "DOWN",
+   "confidence": 84,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.256614,
+   "target_price": 1.206877,
+   "actual_result": null,
+   "accurate": null
+  },
+  {
+   "date_pt": "2026-10-30 18:28:51 PDT",
+   "timeframe_hours": 48,
+   "direction": "DOWN",
+   "confidence": 84,
+   "confidence_label": "designed score 50-90 (not a probability)",
+   "entry_price": 1.256614,
+   "target_price": 1.186275,
    "actual_result": null,
    "accurate": null
   }
