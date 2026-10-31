@@ -1,11 +1,11 @@
 {
-  "price": 1.245595,
-  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 108016632, 2026-10-30 22:23:09 PDT",
-  "price_time_pt": "2026-10-30 22:23:09 PDT",
-  "price_change_24h": -0.702,
+  "price": 1.247669,
+  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 108018505, 2026-10-31 00:23:20 PDT",
+  "price_time_pt": "2026-10-31 00:23:20 PDT",
+  "price_change_24h": -1.437,
   "price_change_24h_source": "Kraken XRP/USD 1h candles",
-  "btc_price": 77105.2,
-  "btc_dominance": 59.22,
+  "btc_price": 77256.0,
+  "btc_dominance": 59.23,
   "btc_dominance_trend": "flat",
   "fear_greed": {
     "value": 30,
@@ -14,7 +14,7 @@
   },
   "rsi": 38.87,
   "rsi_timeframe": "4h (Kraken XRP/USD)",
-  "rsi_1h": 43.1,
+  "rsi_1h": 46.39,
   "macd": {
     "line": -0.016102,
     "signal": -0.012179,
@@ -22,15 +22,15 @@
     "crossover": "Bearish"
   },
   "portfolio": {
-    "xrp": 10194.524092,
+    "xrp": 10193.444092,
     "rlusd": 4742.801426,
-    "total_usd": 17441.05,
-    "growth_pct": -2.3757,
-    "trading_edge_rlusd": -14.9004,
-    "price_effect_rlusd": -409.53,
-    "xrp_delta_vs_hold": 194.524092,
+    "total_usd": 17460.85,
+    "growth_pct": -2.2649,
+    "trading_edge_rlusd": -15.8443,
+    "price_effect_rlusd": -388.79,
+    "xrp_delta_vs_hold": 193.444092,
     "rlusd_delta_vs_hold": -257.198574,
-    "hold_value_rlusd": 17455.95
+    "hold_value_rlusd": 17476.69
   },
   "mode": "GRID-DOWN-2%",
   "brain_enabled": true,
@@ -67,21 +67,6 @@
       "rlusdSpent": 260.0
     },
     {
-      "id": "o637",
-      "openedAt": "2026-10-31T03:23:42Z",
-      "invalidation_price": null,
-      "grid_order": true,
-      "grid_status": "resting",
-      "limit_side": "SELL",
-      "limit_price": 1.31443,
-      "limit_qty": 175.0,
-      "tradeType": "SELL",
-      "xrpSold": 175.0,
-      "sellPrice": 1.31443,
-      "targetBuyPrice": 1.282371,
-      "rlusdHeld": 230.0252
-    },
-    {
       "id": "o640",
       "openedAt": "2026-10-31T03:23:42Z",
       "invalidation_price": null,
@@ -97,79 +82,94 @@
       "rlusdSpent": 260.0
     },
     {
-      "id": "o644",
-      "openedAt": "2026-10-31T05:23:09Z",
+      "id": "o649",
+      "openedAt": "2026-10-31T07:23:20Z",
+      "invalidation_price": null,
+      "grid_order": true,
+      "grid_status": "resting",
+      "limit_side": "SELL",
+      "limit_price": 1.323181,
+      "limit_qty": 175.0,
+      "tradeType": "SELL",
+      "xrpSold": 175.0,
+      "sellPrice": 1.323181,
+      "targetBuyPrice": 1.290908,
+      "rlusdHeld": 231.5567
+    },
+    {
+      "id": "o650",
+      "openedAt": "2026-10-31T07:23:20Z",
       "invalidation_price": null,
       "grid_order": true,
       "grid_status": "resting",
       "limit_side": "BUY",
-      "limit_price": 1.2065,
-      "limit_qty": 215.49929,
+      "limit_price": 1.188454,
+      "limit_qty": 218.771535,
       "tradeType": "BUY",
-      "xrpBought": 215.49929,
-      "buyPrice": 1.2065,
-      "targetSellPrice": 1.236662,
+      "xrpBought": 218.771535,
+      "buyPrice": 1.188454,
+      "targetSellPrice": 1.218165,
       "rlusdSpent": 259.9999
     },
     {
-      "id": "o645",
-      "openedAt": "2026-10-31T05:23:09Z",
+      "id": "o651",
+      "openedAt": "2026-10-31T07:23:20Z",
       "invalidation_price": null,
       "grid_order": true,
       "grid_status": "resting",
       "limit_side": "SELL",
-      "limit_price": 1.342355,
+      "limit_price": 1.364531,
       "limit_qty": 175.0,
       "tradeType": "SELL",
       "xrpSold": 175.0,
-      "sellPrice": 1.342355,
-      "targetBuyPrice": 1.309615,
-      "rlusdHeld": 234.9121
+      "sellPrice": 1.364531,
+      "targetBuyPrice": 1.33125,
+      "rlusdHeld": 238.7929
     },
     {
-      "id": "o646",
-      "openedAt": "2026-10-31T05:23:09Z",
+      "id": "o652",
+      "openedAt": "2026-10-31T07:23:20Z",
+      "invalidation_price": null,
+      "grid_order": true,
+      "grid_status": "resting",
+      "limit_side": "SELL",
+      "limit_price": 1.407172,
+      "limit_qty": 175.0,
+      "tradeType": "SELL",
+      "xrpSold": 175.0,
+      "sellPrice": 1.407172,
+      "targetBuyPrice": 1.372851,
+      "rlusdHeld": 246.2551
+    },
+    {
+      "id": "o653",
+      "openedAt": "2026-10-31T07:23:20Z",
       "invalidation_price": null,
       "grid_order": true,
       "grid_status": "resting",
       "limit_side": "BUY",
-      "limit_price": 1.16994,
-      "limit_qty": 222.233643,
+      "limit_price": 1.100803,
+      "limit_qty": 236.191197,
       "tradeType": "BUY",
-      "xrpBought": 222.233643,
-      "buyPrice": 1.16994,
-      "targetSellPrice": 1.199188,
+      "xrpBought": 236.191197,
+      "buyPrice": 1.100803,
+      "targetSellPrice": 1.128323,
       "rlusdSpent": 260.0
     },
     {
-      "id": "o647",
-      "openedAt": "2026-10-31T05:23:09Z",
+      "id": "o654",
+      "openedAt": "2026-10-31T07:23:20Z",
       "invalidation_price": null,
       "grid_order": true,
       "grid_status": "resting",
       "limit_side": "SELL",
-      "limit_price": 1.375955,
+      "limit_price": 1.451147,
       "limit_qty": 175.0,
       "tradeType": "SELL",
       "xrpSold": 175.0,
-      "sellPrice": 1.375955,
-      "targetBuyPrice": 1.342395,
-      "rlusdHeld": 240.7921
-    },
-    {
-      "id": "o648",
-      "openedAt": "2026-10-31T05:23:09Z",
-      "invalidation_price": null,
-      "grid_order": true,
-      "grid_status": "resting",
-      "limit_side": "SELL",
-      "limit_price": 1.418224,
-      "limit_qty": 175.0,
-      "tradeType": "SELL",
-      "xrpSold": 175.0,
-      "sellPrice": 1.418224,
-      "targetBuyPrice": 1.383633,
-      "rlusdHeld": 248.1892
+      "sellPrice": 1.451147,
+      "targetBuyPrice": 1.415753,
+      "rlusdHeld": 253.9507
     }
   ],
   "fib_levels_30d": {
@@ -199,55 +199,55 @@
     "78.6%": 1.137782,
     "100%": 0.98471
   },
-  "amm_spot": 1.244036,
-  "best_bid": 1.2449106220551396,
-  "best_ask": 1.2462790000000012,
+  "amm_spot": 1.24684,
+  "best_bid": 1.2468396099325825,
+  "best_ask": 1.248499,
   "order_book_walls": {
     "bids": [
       {
-        "price": 1.2419,
-        "size_xrp": 92557.9,
-        "dist_pct": -0.3,
+        "price": 1.24403,
+        "size_xrp": 92395.9,
+        "dist_pct": -0.29,
         "is_wall": true,
-        "strength": 17.7
+        "strength": 21.0
       },
       {
-        "price": 1.18468,
-        "size_xrp": 62393.2,
-        "dist_pct": -4.89,
+        "price": 1.18684,
+        "size_xrp": 61232.9,
+        "dist_pct": -4.88,
         "is_wall": true,
-        "strength": 11.9
+        "strength": 13.9
       },
       {
         "price": 1.157,
-        "size_xrp": 427132.0,
-        "dist_pct": -7.11,
+        "size_xrp": 433201.2,
+        "dist_pct": -7.27,
         "is_wall": true,
-        "strength": 81.5
+        "strength": 98.7
       }
     ],
     "asks": [
       {
-        "price": 1.2463,
-        "size_xrp": 40433.2,
-        "dist_pct": 0.06,
+        "price": 1.248799,
+        "size_xrp": 40150.7,
+        "dist_pct": 0.09,
         "is_wall": true,
-        "strength": 7.7
+        "strength": 9.1
       }
     ]
   },
   "amm_depth": {
     "1pct": {
-      "xrp_to_push_down": 9443.0,
-      "xrp_to_push_up": 9302.0
+      "xrp_to_push_down": 9432.0,
+      "xrp_to_push_up": 9292.0
     },
     "2pct": {
-      "xrp_to_push_down": 19030.0,
-      "xrp_to_push_up": 18467.0
+      "xrp_to_push_down": 19008.0,
+      "xrp_to_push_up": 18446.0
     },
     "5pct": {
-      "xrp_to_push_down": 48693.0,
-      "xrp_to_push_up": 45172.0
+      "xrp_to_push_down": 48639.0,
+      "xrp_to_push_up": 45122.0
     }
   },
   "indicator_sources": {
@@ -256,7 +256,7 @@
     "d1": "Kraken XRP/USD daily candles",
     "fear_greed": "alternative.me Fear & Greed",
     "btc_dominance": "CoinGecko global",
-    "walls": "XRPL XRP/RLUSD full funded order book (ledger 108016631), 0.5% bands, median/MAD walls + AMM bands"
+    "walls": "XRPL XRP/RLUSD full funded order book (ledger 108018504), 0.5% bands, median/MAD walls + AMM bands"
   },
   "_note": "Phoenix 2.0 paper grid. growth_pct includes price movement; trading_edge_rlusd is edge vs the hold baseline."
 }
