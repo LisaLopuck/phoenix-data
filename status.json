@@ -1,36 +1,36 @@
 {
-  "price": 1.24825,
-  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 108065031, 2026-11-02 02:24:30 PST",
-  "price_time_pt": "2026-11-02 02:24:30 PST",
-  "price_change_24h": -0.051,
+  "price": 1.254465,
+  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 108066789, 2026-11-02 04:20:13 PST",
+  "price_time_pt": "2026-11-02 04:20:13 PST",
+  "price_change_24h": -0.329,
   "price_change_24h_source": "Kraken XRP/USD 1h candles",
-  "btc_price": 77898.4,
-  "btc_dominance": 59.95,
+  "btc_price": 77932.1,
+  "btc_dominance": 59.91,
   "btc_dominance_trend": "flat",
   "fear_greed": {
     "value": 37,
     "classification": "Fear",
     "prev": 34
   },
-  "rsi": 43.18,
+  "rsi": 43.06,
   "rsi_timeframe": "4h (Kraken XRP/USD)",
-  "rsi_1h": 49.4,
+  "rsi_1h": 48.34,
   "macd": {
-    "line": -0.008846,
-    "signal": -0.011194,
-    "histogram": 0.002348,
+    "line": -0.008444,
+    "signal": -0.010644,
+    "histogram": 0.0022,
     "crossover": "Bullish"
   },
   "portfolio": {
     "xrp": 10181.114092,
     "rlusd": 4742.801426,
-    "total_usd": 17451.38,
-    "growth_pct": -2.3179,
-    "trading_edge_rlusd": -31.1228,
-    "price_effect_rlusd": -382.98,
+    "total_usd": 17514.65,
+    "growth_pct": -1.9637,
+    "trading_edge_rlusd": -29.9973,
+    "price_effect_rlusd": -320.83,
     "xrp_delta_vs_hold": 181.114092,
     "rlusd_delta_vs_hold": -257.198574,
-    "hold_value_rlusd": 17482.5
+    "hold_value_rlusd": 17544.65
   },
   "mode": "GRID-DOWN-2%",
   "brain_enabled": true,
@@ -94,62 +94,55 @@
     "78.6%": 1.137782,
     "100%": 0.98471
   },
-  "amm_spot": 1.248671,
-  "best_bid": 1.2474646495654642,
-  "best_ask": 1.2490360552872608,
+  "amm_spot": 1.252245,
+  "best_bid": 1.2539399904816655,
+  "best_ask": 1.2549899766120949,
   "order_book_walls": {
     "bids": [
       {
-        "price": 1.2452,
-        "size_xrp": 93777.3,
-        "dist_pct": -0.24,
+        "price": 1.25096,
+        "size_xrp": 83259.2,
+        "dist_pct": -0.28,
         "is_wall": true,
-        "strength": 25.7
+        "strength": 20.4
       },
       {
         "price": 1.20868,
-        "size_xrp": 40236.5,
-        "dist_pct": -3.17,
+        "size_xrp": 40183.5,
+        "dist_pct": -3.65,
         "is_wall": true,
-        "strength": 11.0
+        "strength": 9.8
       },
       {
-        "price": 1.18833,
-        "size_xrp": 165134.5,
-        "dist_pct": -4.8,
+        "price": 1.19417,
+        "size_xrp": 58388.9,
+        "dist_pct": -4.81,
         "is_wall": true,
-        "strength": 45.3
+        "strength": 14.3
       }
     ],
     "asks": [
       {
-        "price": 1.25046,
-        "size_xrp": 59192.0,
-        "dist_pct": 0.18,
+        "price": 1.25596,
+        "size_xrp": 61571.2,
+        "dist_pct": 0.12,
         "is_wall": true,
-        "strength": 16.2
-      },
-      {
-        "price": 1.306978,
-        "size_xrp": 30774.4,
-        "dist_pct": 4.7,
-        "is_wall": true,
-        "strength": 8.4
+        "strength": 15.1
       }
     ]
   },
   "amm_depth": {
     "1pct": {
-      "xrp_to_push_down": 9425.0,
-      "xrp_to_push_up": 9285.0
+      "xrp_to_push_down": 9412.0,
+      "xrp_to_push_up": 9272.0
     },
     "2pct": {
-      "xrp_to_push_down": 18994.0,
-      "xrp_to_push_up": 18433.0
+      "xrp_to_push_down": 18967.0,
+      "xrp_to_push_up": 18407.0
     },
     "5pct": {
-      "xrp_to_push_down": 48603.0,
-      "xrp_to_push_up": 45089.0
+      "xrp_to_push_down": 48534.0,
+      "xrp_to_push_up": 45024.0
     }
   },
   "indicator_sources": {
@@ -158,7 +151,7 @@
     "d1": "Kraken XRP/USD daily candles",
     "fear_greed": "alternative.me Fear & Greed",
     "btc_dominance": "CoinGecko global",
-    "walls": "XRPL XRP/RLUSD full funded order book (ledger 108065030), 0.5% bands, median/MAD walls + AMM bands"
+    "walls": "XRPL XRP/RLUSD full funded order book (ledger 108066788), 0.5% bands, median/MAD walls + AMM bands"
   },
   "_note": "Phoenix 2.0 paper grid. growth_pct includes price movement; trading_edge_rlusd is edge vs the hold baseline."
 }
