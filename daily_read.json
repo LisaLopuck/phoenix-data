@@ -87,8 +87,9 @@
    "target": 1.2861,
    "fail": 1.1968,
    "text": "break above $1.2580 -> ~$1.2861",
-   "max_seen": 1.2541499687672635,
-   "min_seen": 1.2403995340481104
+   "max_seen": 1.280054486720157,
+   "min_seen": 1.2403995340481104,
+   "triggered_utc": "2026-11-03T12:27:56.088816+00:00"
   },
   {
    "id": "breakdown",
@@ -98,24 +99,26 @@
    "target2": 1.1378,
    "fail": 1.258,
    "text": "lose $1.1968 -> $1.1570 then $1.1378",
-   "max_seen": 1.2541499687672635,
+   "max_seen": 1.280054486720157,
    "min_seen": 1.2403995340481104
   }
  ],
  "invalidation": {
   "condition": "4h close above",
   "level": 1.258,
-  "flips_to": "neutral/bullish"
+  "flips_to": "neutral/bullish",
+  "result": "triggered",
+  "at_utc": "2026-11-03T12:27:56.088816+00:00"
  },
  "levels_source_note": "Fib levels: Kraken XRP/USD 4h (30d) and daily (90d) candles; walls: XRPL XRP/RLUSD order book; all as of 8:24 AM PT",
  "text": "XRP is at $1.2481 (XRPL DEX XRP/RLUSD order-book mid, 2026-11-02 08:24:07 PST) and is consolidating (no real trend on the 4h).\n\nMomentum: 4h RSI 42.49, 1h RSI 46.75, daily RSI 37.05; 4h MACD bullish (histogram +0.0020), with no RSI divergence on the 4h. (Kraken XRP/USD candles, 8:24 AM PT.)\n\nResistance is $1.2580 (90d Fib 61.8%; Kraken XRP/USD daily candles, 8:24 AM PT). A clean break above $1.2580 likely runs to ~$1.2861 (XRPL ask wall ~21k XRP) before a pullback to ~$1.2580 to retest it. Above that, $1.3048 (XRPL ask wall ~31k XRP) is the next magnet.\n\nSupport is $1.1968 (30d swing low; Kraken XRP/USD 4h candles, 8:24 AM PT). Losing $1.1968 opens $1.1570 (XRPL bid wall ~430k XRP), then $1.1378 (90d Fib 78.6%).\n\nWhat changes my mind: a 4h close back above $1.2580 (90d Fib 61.8%) would flip me from bearish to neutral/bullish.\n\nLean: bearish (from the engine's regime DOWN; a designed read, not a probability). Grid stays passive either way.",
  "track_record": {
   "calls": 58,
-  "hit": 10,
+  "hit": 11,
   "miss": 19,
   "no_trigger": 23,
-  "open": 6,
-  "hit_rate_pct": 34.5,
+  "open": 5,
+  "hit_rate_pct": 36.7,
   "note": "scored on XRPL DEX mids sampled each 20-min check (intra-check wicks not seen)"
  },
  "next_read": "daily, first check after 6:45 AM PT"
