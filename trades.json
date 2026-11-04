@@ -31,6 +31,21 @@
       "rlusdHeld": 263.2501
     },
     {
+      "id": "o801",
+      "openedAt": "2026-11-04T16:21:12Z",
+      "invalidation_price": null,
+      "grid_order": true,
+      "grid_status": "cycle_open",
+      "limit_side": "BUY",
+      "limit_price": 1.272863,
+      "limit_qty": 177.761469,
+      "tradeType": "SELL",
+      "xrpSold": 175.026677,
+      "sellPrice": 1.31264,
+      "targetBuyPrice": 1.272863,
+      "rlusdHeld": 229.747
+    },
+    {
       "id": "o796",
       "openedAt": "2026-11-04T14:26:37Z",
       "invalidation_price": null,
@@ -74,21 +89,6 @@
       "buyPrice": 1.103774,
       "targetSellPrice": 1.131368,
       "rlusdSpent": 260.0
-    },
-    {
-      "id": "o801",
-      "openedAt": "2026-11-04T16:21:12Z",
-      "invalidation_price": null,
-      "grid_order": true,
-      "grid_status": "cycle_open",
-      "limit_side": "BUY",
-      "limit_price": 1.272863,
-      "limit_qty": 177.761469,
-      "tradeType": "SELL",
-      "xrpSold": 175.026677,
-      "sellPrice": 1.31264,
-      "targetBuyPrice": 1.272863,
-      "rlusdHeld": 229.747
     },
     {
       "id": "o802",
@@ -212,7 +212,7 @@
       "xrpSold": 100.783394
     }
   ],
-  "total_profit": 50.6445,
+  "total_profit": 50.6368,
   "total_profit_note": "completed grid cycles: RLUSD profit + XRP profit valued at current price",
   "win_rate": 100.0,
   "total_trades_closed": 8
