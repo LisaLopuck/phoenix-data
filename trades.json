@@ -46,34 +46,19 @@
       "rlusdSpent": 219.6758
     },
     {
-      "id": "o823",
-      "openedAt": "2026-11-05T18:32:52Z",
+      "id": "o838",
+      "openedAt": "2026-11-06T06:23:38Z",
       "invalidation_price": null,
       "grid_order": true,
-      "grid_status": "resting",
+      "grid_status": "cycle_open",
       "limit_side": "SELL",
-      "limit_price": 1.369077,
-      "limit_qty": 175.0,
-      "tradeType": "SELL",
-      "xrpSold": 175.0,
-      "sellPrice": 1.369077,
-      "targetBuyPrice": 1.335685,
-      "rlusdHeld": 239.5885
-    },
-    {
-      "id": "o833",
-      "openedAt": "2026-11-06T04:29:16Z",
-      "invalidation_price": null,
-      "grid_order": true,
-      "grid_status": "resting",
-      "limit_side": "SELL",
-      "limit_price": 1.304005,
-      "limit_qty": 175.0,
-      "tradeType": "SELL",
-      "xrpSold": 175.0,
-      "sellPrice": 1.304005,
-      "targetBuyPrice": 1.2722,
-      "rlusdHeld": 228.2009
+      "limit_price": 1.226771,
+      "limit_qty": 214.587683,
+      "tradeType": "BUY",
+      "xrpBought": 217.236914,
+      "buyPrice": 1.19685,
+      "targetSellPrice": 1.226771,
+      "rlusdSpent": 260.0
     },
     {
       "id": "o834",
@@ -121,21 +106,6 @@
       "rlusdSpent": 259.9999
     },
     {
-      "id": "o838",
-      "openedAt": "2026-11-06T06:23:38Z",
-      "invalidation_price": null,
-      "grid_order": true,
-      "grid_status": "cycle_open",
-      "limit_side": "SELL",
-      "limit_price": 1.226771,
-      "limit_qty": 214.587683,
-      "tradeType": "BUY",
-      "xrpBought": 217.236914,
-      "buyPrice": 1.19685,
-      "targetSellPrice": 1.226771,
-      "rlusdSpent": 260.0
-    },
-    {
       "id": "o839",
       "openedAt": "2026-11-06T06:23:38Z",
       "invalidation_price": null,
@@ -149,6 +119,36 @@
       "buyPrice": 1.159738,
       "targetSellPrice": 1.188731,
       "rlusdSpent": 260.0
+    },
+    {
+      "id": "o840",
+      "openedAt": "2026-11-06T08:28:51Z",
+      "invalidation_price": null,
+      "grid_order": true,
+      "grid_status": "resting",
+      "limit_side": "SELL",
+      "limit_price": 1.311547,
+      "limit_qty": 175.0,
+      "tradeType": "SELL",
+      "xrpSold": 175.0,
+      "sellPrice": 1.311547,
+      "targetBuyPrice": 1.279558,
+      "rlusdHeld": 229.5207
+    },
+    {
+      "id": "o841",
+      "openedAt": "2026-11-06T08:28:51Z",
+      "invalidation_price": null,
+      "grid_order": true,
+      "grid_status": "resting",
+      "limit_side": "SELL",
+      "limit_price": 1.377944,
+      "limit_qty": 175.0,
+      "tradeType": "SELL",
+      "xrpSold": 175.0,
+      "sellPrice": 1.377944,
+      "targetBuyPrice": 1.344336,
+      "rlusdHeld": 241.1402
     }
   ],
   "trade_history": [
@@ -296,7 +296,7 @@
       "xrpSold": 100.783394
     }
   ],
-  "total_profit": 67.9723,
+  "total_profit": 67.7786,
   "total_profit_note": "completed grid cycles: RLUSD profit + XRP profit valued at current price",
   "win_rate": 100.0,
   "total_trades_closed": 11
