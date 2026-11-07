@@ -92,7 +92,7 @@
    "fail": 1.1782,
    "text": "break above $1.2350 -> ~$1.2500",
    "max_seen": 1.1899685562904692,
-   "min_seen": 1.1757958949529579
+   "min_seen": 1.1547949989195732
   },
   {
    "id": "breakdown",
@@ -103,8 +103,11 @@
    "fail": 1.235,
    "text": "lose $1.1782 -> $1.1570 then $1.1389",
    "max_seen": 1.1899685562904692,
-   "min_seen": 1.1757958949529579,
-   "triggered_utc": "2026-11-06T20:29:25.912873+00:00"
+   "min_seen": 1.1547949989195732,
+   "triggered_utc": "2026-11-06T20:29:25.912873+00:00",
+   "outcome": "hit",
+   "scored_utc": "2026-11-07T04:23:41.720403+00:00",
+   "scored_price": 1.1547949989195732
   }
  ],
  "invalidation": {
@@ -116,11 +119,11 @@
  "text": "XRP is at $1.1894 (XRPL DEX XRP/RLUSD order-book mid, 2026-11-06 06:52:43 PST) and is stretched to the downside.\n\nMomentum: 4h RSI 33.11, 1h RSI 28.3, daily RSI 35.71; 4h MACD bearish (histogram -0.0122), with no RSI divergence on the 4h. (Kraken XRP/USD candles, 6:52 AM PT.)\n\nResistance is $1.2350 (30d Fib 78.6%; Kraken XRP/USD 4h candles, 6:52 AM PT). A clean break above $1.2350 likely runs to ~$1.2500 (XRPL ask wall ~52k XRP) before a pullback to ~$1.2350 to retest it. Above that, $1.2813 (30d Fib 61.8%) is the next magnet.\n\nSupport is $1.1782 (30d swing low + XRPL bid wall ~23k XRP; Kraken XRP/USD 4h candles/XRPL XRP/RLUSD order book, 6:52 AM PT). Losing $1.1782 opens $1.1570 (XRPL bid wall ~455k XRP), then $1.1389 (90d Fib 78.6% + XRPL bid wall ~83k XRP).\n\nWhat changes my mind: a 4h close back above $1.2350 (30d Fib 78.6%) would flip me from bearish to neutral/bullish.\n\nLean: bearish (from the engine's regime SHARP_DOWN; a designed read, not a probability). Grid stays passive either way.",
  "track_record": {
   "calls": 66,
-  "hit": 14,
+  "hit": 15,
   "miss": 23,
   "no_trigger": 26,
-  "open": 3,
-  "hit_rate_pct": 37.8,
+  "open": 2,
+  "hit_rate_pct": 39.5,
   "note": "scored on XRPL DEX mids sampled each 20-min check (intra-check wicks not seen)"
  },
  "next_read": "daily, first check after 6:45 AM PT"
