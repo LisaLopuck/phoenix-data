@@ -1,36 +1,36 @@
 {
-  "price": 1.092095,
-  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 108230089, 2026-11-09 18:26:39 PST",
-  "price_time_pt": "2026-11-09 18:26:39 PST",
-  "price_change_24h": -1.192,
+  "price": 1.092934,
+  "price_source": "XRPL DEX XRP/RLUSD order-book mid, ledger 108231797, 2026-11-09 20:19:46 PST",
+  "price_time_pt": "2026-11-09 20:19:46 PST",
+  "price_change_24h": -1.607,
   "price_change_24h_source": "Kraken XRP/USD 1h candles",
-  "btc_price": 74759.9,
-  "btc_dominance": 59.67,
+  "btc_price": 74590.5,
+  "btc_dominance": 59.61,
   "btc_dominance_trend": "falling",
   "fear_greed": {
     "value": 32,
     "classification": "Fear",
     "prev": 29
   },
-  "rsi": 31.85,
+  "rsi": 30.78,
   "rsi_timeframe": "4h (Kraken XRP/USD)",
-  "rsi_1h": 45.69,
+  "rsi_1h": 42.0,
   "macd": {
-    "line": -0.034657,
-    "signal": -0.032318,
-    "histogram": -0.002339,
+    "line": -0.034296,
+    "signal": -0.032714,
+    "histogram": -0.001582,
     "crossover": "Bearish"
   },
   "portfolio": {
     "xrp": 10603.481932,
     "rlusd": 4232.872461,
-    "total_usd": 15812.89,
-    "growth_pct": -11.4891,
-    "trading_edge_rlusd": -108.0677,
-    "price_effect_rlusd": -1944.53,
+    "total_usd": 15821.78,
+    "growth_pct": -11.4394,
+    "trading_edge_rlusd": -107.5617,
+    "price_effect_rlusd": -1936.14,
     "xrp_delta_vs_hold": 603.481932,
     "rlusd_delta_vs_hold": -767.127539,
-    "hold_value_rlusd": 15920.95
+    "hold_value_rlusd": 15929.34
   },
   "mode": "GRID-SHARP_DOWN-2%",
   "brain_enabled": true,
@@ -214,55 +214,62 @@
     "78.6%": 1.137782,
     "100%": 0.98471
   },
-  "amm_spot": 1.093918,
-  "best_bid": 1.091617668844537,
-  "best_ask": 1.0925732489532496,
+  "amm_spot": 1.092362,
+  "best_bid": 1.0924618424144226,
+  "best_ask": 1.0934057332338964,
   "order_book_walls": {
     "bids": [
       {
-        "price": 1.090345,
-        "size_xrp": 33737.7,
-        "dist_pct": -0.16,
+        "price": 1.0918,
+        "size_xrp": 41969.3,
+        "dist_pct": -0.1,
         "is_wall": true,
-        "strength": 8.5
+        "strength": 17.1
       },
       {
         "price": 1.04,
-        "size_xrp": 47342.3,
-        "dist_pct": -4.77,
+        "size_xrp": 47364.9,
+        "dist_pct": -4.84,
         "is_wall": true,
-        "strength": 11.9
+        "strength": 19.3
       },
       {
         "price": 1.01,
-        "size_xrp": 29242.9,
-        "dist_pct": -7.52,
+        "size_xrp": 29491.8,
+        "dist_pct": -7.59,
         "is_wall": true,
-        "strength": 7.4
+        "strength": 12.0
       }
     ],
     "asks": [
       {
-        "price": 1.15,
-        "size_xrp": 30823.1,
-        "dist_pct": 5.3,
+        "price": 1.09462,
+        "size_xrp": 29176.3,
+        "dist_pct": 0.15,
         "is_wall": true,
-        "strength": 7.8
+        "strength": 11.9
+      },
+      {
+        "price": 1.15,
+        "size_xrp": 30887.1,
+        "dist_pct": 5.22,
+        "is_wall": true,
+        "strength": 12.6
       }
     ]
   },
   "amm_depth": {
     "1pct": {
-      "xrp_to_push_down": 9952.0,
-      "xrp_to_push_up": 9803.0
+      "xrp_to_push_down": 9959.0,
+      "xrp_to_push_up": 9810.0
     },
     "2pct": {
-      "xrp_to_push_down": 20055.0,
-      "xrp_to_push_up": 19462.0
+      "xrp_to_push_down": 20070.0,
+      "xrp_to_push_up": 19476.0
     },
     "5pct": {
-      "xrp_to_push_down": 51317.0,
-      "xrp_to_push_up": 47607.0
+      "xrp_to_push_down": 51354.0,
+      "xrp_to_push_up": 47641.0
     }
   },
   "indicator_sources": {
@@ -271,7 +278,7 @@
     "d1": "Kraken XRP/USD daily candles",
     "fear_greed": "alternative.me Fear & Greed",
     "btc_dominance": "CoinGecko global",
-    "walls": "XRPL XRP/RLUSD full funded order book (ledger 108230088), 0.5% bands, median/MAD walls + AMM bands"
+    "walls": "XRPL XRP/RLUSD full funded order book (ledger 108231797), 0.5% bands, median/MAD walls + AMM bands"
   },
   "_note": "Phoenix 2.0 paper grid. growth_pct includes price movement; trading_edge_rlusd is edge vs the hold baseline."
 }
