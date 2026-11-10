@@ -1,21 +1,6 @@
 {
   "open_trades": [
     {
-      "id": "o838",
-      "openedAt": "2026-11-06T06:23:38Z",
-      "invalidation_price": null,
-      "grid_order": true,
-      "grid_status": "cycle_open",
-      "limit_side": "SELL",
-      "limit_price": 1.226771,
-      "limit_qty": 214.587683,
-      "tradeType": "BUY",
-      "xrpBought": 217.236914,
-      "buyPrice": 1.19685,
-      "targetSellPrice": 1.226771,
-      "rlusdSpent": 260.0
-    },
-    {
       "id": "o909",
       "openedAt": "2026-11-09T08:26:52Z",
       "invalidation_price": null,
@@ -296,7 +281,7 @@
       "xrpSold": 100.783394
     }
   ],
-  "total_profit": 64.8618,
+  "total_profit": 64.319,
   "total_profit_note": "completed grid cycles: RLUSD profit + XRP profit valued at current price",
   "win_rate": 100.0,
   "total_trades_closed": 11
